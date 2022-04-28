@@ -9,5 +9,6 @@
  
 # 使用ライブラリ
 
-* chart.js3.5.1
-* air-datepicker3.1.1
+* jquery-3.6.0
+* chart.js-3.5.1
+* air-datepicker-3.1.1
