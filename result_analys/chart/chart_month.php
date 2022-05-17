@@ -3,7 +3,7 @@
 </div>
 
 <?php
-  //指定期間が何月あるか
+  //指定期間が何月あるか(db_operation/result_analys_db_conn.phpで出した情報を参照しています)
     $start_comp = new DateTimeImmutable($start_month_chart);
     $end_comp   = new DateTimeImmutable($end_month_chart);
     $interval   = new DateInterval('P1M');
@@ -12,11 +12,11 @@
     foreach ($res_comp as $what_month) {
       $what_month_res = $what_month_res.'"'.$what_month->format('Y-m').'",';
     }
-  //chart.jsのグラフ描画用
+  //chart.jsのグラフ描画用(db_operation/result_analys_db_conn.phpで出した情報を参照しています)
     $lps=0 ;
     foreach ($res_comp as $what_balance_month) {
-      if($what_balance_month->format('Y-m') == $month_chart[$lps]['DATE_FORMAT(entry_date, "%Y-%m")']){
-        $month_old_pay[0] = $month_old_pay[0] + $month_chart[$lps++]["SUM(income) - SUM(expenses)"];
+      if($what_balance_month->format('Y-m') == $month_chart[$lps]['entry_date']){
+        $month_old_pay[0] = $month_old_pay[0] + $month_chart[$lps++]['total_amount'];
         $what_balance_res = $what_balance_res.$month_old_pay[0] .',';
       }else{
         $what_balance_res = $what_balance_res.$month_old_pay[0].',';

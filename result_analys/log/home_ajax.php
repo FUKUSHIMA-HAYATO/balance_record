@@ -1,11 +1,11 @@
 <?php
   session_start();
-  $dsn         = 'mysql:host=localhost; dbname=name ; charset=utf8mb4';
-  $user        = 'user';
-  $password    = 'pass';
-  $user_name   = $_SESSION['id'];
-  $day_start   = $_POST['day_start'];
-  $day_end     = $_POST['day_end'];
+  $dsn       = 'mysql:host=localhost; dbname=dbname; charset=utf8';
+  $user      = 'user';
+  $password  = 'pass';
+  $user_name = $_SESSION['id'];
+  $day_start = $_POST['day_start'];
+  $day_end   = $_POST['day_end'];
 ?>
 
 <?php

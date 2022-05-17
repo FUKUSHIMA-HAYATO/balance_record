@@ -8,7 +8,6 @@
         <script src="/balance_record/js/tab_function.js?<?php echo date('Ymd-His'); ?>"></script>
         <script src="/balance_record/js/ajax.js?<?php echo date('Ymd-His'); ?>"></script>
         <script src="/balance_record/js/results_of_processing.js?<?php echo date('Ymd-His'); ?>"></script>
-        <script src="/balance_record/library/chart.js/chart.min.js?"></script>
       <?php endif; ?>
     </footer>
 

@@ -2,7 +2,7 @@
   if ($_POST['check']) {
     try {
       $check_id= $_POST['check'];
-      $pdo    = new PDO('mysql:host=localhost; dbname=name; charset=utf8mb4', 'user', 'pass');
+      $pdo     = new PDO('mysql:host=localhost; dbname=dbname; charset=utf8', 'user', 'pass');
       $stmt    = $pdo->prepare("SELECT id FROM user_id_password WHERE id = ? LIMIT 1");
       $stmt    ->bindValue(1, $check_id);
       $stmt    ->execute();

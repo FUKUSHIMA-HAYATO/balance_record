@@ -4,7 +4,7 @@
       let split_day = $("#record_home_ajax").val().split(',');
       $.ajax({
         type: "POST",
-        url: "/../balance_record/result_analys/log/home_ajax",
+        url: "/../balance_record/result_analys/log/home_ajax.php",
         data: { "day_start" : split_day[0] , "day_end" : split_day[1] },
         dataType : "html"
       }).done(function(data){
@@ -21,7 +21,7 @@
       let split_month = $("#chart_month_ajax").val().split(',');
       $.ajax({
         type: "POST",
-        url: "/../balance_record/result_analys/chart/chart_month_ajax",
+        url: "/../balance_record/result_analys/chart/chart_month_ajax.php",
         data: { "month_start" : split_month[0] , "month_end" : split_month[1] },
         dataType : "html"
       }).done(function(data){
@@ -37,7 +37,7 @@
       let split_day = $("#chart_day_ajax").val().split(',');
       $.ajax({
         type: "POST",
-        url: "/../balance_record/result_analys/chart/chart_day_ajax",
+        url: "/../balance_record/result_analys/chart/chart_day_ajax.php",
         data: { "day_start" : split_day[0] , "day_end" : split_day[1] },
         dataType : "html"
       }).done(function(data){
@@ -53,7 +53,7 @@
       let split_month = $("#category_month_ajax").val().split(',');
       $.ajax({
         type: "POST",
-        url: "/../balance_record/result_analys/category/category_month_ajax",
+        url: "/../balance_record/result_analys/category/category_month_ajax.php",
         data: { "month_start" : split_month[0] , "month_end" : split_month[1] },
         dataType : "json"
       }).done(function(data){
@@ -76,7 +76,7 @@
       let split_day = $("#category_day_ajax").val().split(',');
       $.ajax({
         type: "POST",
-        url: "/../balance_record/result_analys/category/category_day_ajax",
+        url: "/../balance_record/result_analys/category/category_day_ajax.php",
         data: { "day_start" : split_day[0] , "day_end" : split_day[1] },
         dataType : "json"
       }).done(function(data){
@@ -99,7 +99,7 @@
       let split_month = $("#month_hpi_ajax").val().split(',');
       $.ajax({
         type: "POST",
-        url: "/../balance_record/result_analys/high_priced_item/high_priced_item_month_ajax",
+        url: "/../balance_record/result_analys/high_priced_item/high_priced_item_month_ajax.php",
         data: { "month_start" : split_month[0] , "month_end" : split_month[1] },
         dataType : "json"
       }).done(function(data){
@@ -122,7 +122,7 @@
       let split_day = $("#day_hpi_ajax").val().split(',');
       $.ajax({
         type: "POST",
-        url: "/../balance_record/result_analys/high_priced_item/high_priced_item_day_ajax",
+        url: "/../balance_record/result_analys/high_priced_item/high_priced_item_day_ajax.php",
         data: { "day_start" : split_day[0] , "day_end" : split_day[1] },
         dataType : "json"
       }).done(function(data){

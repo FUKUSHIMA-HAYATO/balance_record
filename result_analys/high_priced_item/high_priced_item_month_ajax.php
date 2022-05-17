@@ -1,8 +1,8 @@
 <?php
   session_start();
-  $dsn         = 'mysql:host=localhost; dbname=name ; charset=utf8mb4';
-  $user        = 'user';
-  $password    = 'pass';
+  $dsn       = 'mysql:host=localhost; dbname=dbname; charset=utf8';
+  $user      = 'user';
+  $password  = 'pass';
   $user_name   = $_SESSION['id'];
   $start_month = date('Y-m-d', strtotime('first day of ' . $_POST['month_start']));
   $end_month   = date('Y-m-d', strtotime('last day of  ' . $_POST['month_end']));

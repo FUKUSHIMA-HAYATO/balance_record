@@ -1,6 +1,6 @@
 <?php
   session_start();
-  $dsn         = 'mysql:host=localhost; dbname=name ; charset=utf8mb4';
+  $dsn         = 'mysql:host=localhost; dbname=dbname; charset=utf8';
   $user        = 'user';
   $password    = 'pass';
   $user_name   = $_SESSION['id'];
@@ -10,10 +10,10 @@
   try {
     $pdo = new PDO($dsn, $user, $password);
     $month_category = $pdo->prepare('SELECT SUM(income) - SUM(expenses), category, MAX(entry_date)
-                                  FROM  expenditure
-                                  WHERE account = :account  AND  entry_date BETWEEN :start_day AND :end_day
-                                  GROUP BY category
-                                  ORDER BY SUM(income) - SUM(expenses) ASC');
+                                     FROM  expenditure
+                                     WHERE account = :account  AND  entry_date BETWEEN :start_day AND :end_day
+                                     GROUP BY category
+                                     ORDER BY SUM(income) - SUM(expenses) ASC');
     $month_category ->bindValue(':account'  , $user_name);
     $month_category ->bindValue(':start_day', $start_month);
     $month_category ->bindValue(':end_day'  , $end_month  );

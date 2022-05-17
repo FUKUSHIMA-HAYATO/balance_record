@@ -7,7 +7,7 @@
     header('Location: /balance_record/home');exit ;}
 ?>
 <?php
-  $dsn       = 'mysql:host=localhost; dbname=name ; charset=utf8mb4';
+  $dsn       = 'mysql:host=localhost; dbname=dbname; charset=utf8';
   $user      = 'user';
   $password  = 'pass';
   $user_name = $_SESSION['id'];

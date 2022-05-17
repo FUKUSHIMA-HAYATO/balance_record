@@ -3,7 +3,7 @@
   if( empty($_SESSION['id'])) {
     header('Location: /balance_record/account_related/login');exit ;
   }
-  $dsn       = 'mysql:host=localhost; dbname=name ; charset=utf8mb4';
+  $dsn       = 'mysql:host=localhost; dbname=dbname; charset=utf8';
   $user      = 'user';
   $password  = 'pass';
   $user_name = $_SESSION['id'];
@@ -15,7 +15,7 @@
 <?//ハンバーガー(balance_record/js/hamburger.js からjsを読み込んでいます。)?>
   <div class="blance_record_global_menu_container">
     <div class="blance_record_global_menu">
-      <p><?php echo '家計簿アプリ' ?></p>
+      <p><?php echo '家計簿アプリ(デモ)' ?></p>
     </div>
     <div class="x_mark_button" onclick="hamburger()">
       <div class="x_mark1"></div>
@@ -27,8 +27,8 @@
       <div class="hamburgerMenu" >
         <div class="hamburgerMenu-box1">
           <ul>
-            <li><a href= "homeURL">ポートフォリオに戻る</a></li>
-            <li><a href= "/balance_record/account_related/account_delete">アカウント削除</a></li>
+            <li><a href= "http://hayato-study-note.site">ポートフォリオに戻る</a></li>
+            <li><a href= "http://hayato-study-note.site/balance_record/account_related/account_delete">アカウント削除</a></li>
           </ul>
         </div>
         <div class="hamburgerMenu-box2">
@@ -86,7 +86,7 @@
             </div>
           </div>
           <div id="month_chart_expense" class="chart_content">
-            <div class="select_chart_month_container"><?//(balance_record/js/ajax,jsに飛ばしています)?>
+            <div class="select_chart_month_container">
               <?php   $chart_month_place = date('Y-m',strtotime('-5 month')).','.date('Y-m');?>
               <input  id="chart_month_ajax"class="datepicker-here" type="text" name="entry_date" data-language="jp" data-min-view="months"data-view="months"data-date-format="yyyy-mm" data-position='bottom left' data-range="true"data-multiple-dates-separator="," placeholder="<?php echo $chart_month_place; ?>" readonly="readonly" />
               <button id="chart_month_btn"><i class="far fa-paper-plane"></i></button>
@@ -96,7 +96,7 @@
             </div>
           </div>
           <div id="day_chart_expense" class="chart_content">
-            <div class="select_chart_day_container"><?//(balance_record/js/ajax,jsに飛ばしています)?>
+            <div class="select_chart_day_container">
               <?php $chart_day_place = date('Y-m-d', strtotime('-6 day')).','.date('Y-m-d');?>
               <input  id="chart_day_ajax" class="datepicker-here" type="text" name="entry_date" data-language="jp" data-date-format="yyyy-mm-dd" data-position='bottom left' data-range="true"data-multiple-dates-separator="," placeholder="<?php echo $chart_day_place;?>" readonly="readonly" />
               <button id="chart_day_btn"><i class="far fa-paper-plane"></i></button>
@@ -118,7 +118,7 @@
             </div>
           </div>
           <div id="month_category_expense" class="category_content">
-            <div class="select_category_month_container"><?//(balance_record/js/ajax,jsに飛ばしています)?>
+            <div class="select_category_month_container">
               <?php $category_month = date('Y-m',strtotime('-5 month')).','.date('Y-m');?>
               <input  id="category_month_ajax" class="datepicker-here" type="text" name="entry_date" data-language="jp" data-min-view="months"data-view="months"data-date-format="yyyy-mm" data-position='bottom left' data-range="true"data-multiple-dates-separator="," placeholder="<?php echo $category_month;?>" readonly="readonly" />
               <button id="category_month_btn"><i class="far fa-paper-plane"></i></button>
@@ -141,7 +141,7 @@
             </div>
           </div>
           <div id="day_category_expense" class="category_content">
-            <div class="select_category_day_container"><?//(balance_record/js/ajax,jsに飛ばしています)?>
+            <div class="select_category_day_container">
               <?php $category_day = date('Y-m-d', strtotime('-6 day')).','.date('Y-m-d');?>
               <input  id="category_day_ajax" class="datepicker-here" type="text"  name="entry_date" data-language="jp" data-date-format="yyyy-mm-dd" data-position='bottom left' data-range="true"data-multiple-dates-separator="," placeholder="<?php echo $category_day;?>" readonly="readonly" />
               <button id="category_day_btn"><i class="far fa-paper-plane"></i></button>
@@ -174,9 +174,9 @@
               <button id="hpi_day"   class="hpi_num" onclick="hpi_btn(event, 'day_hpi_wrap'  )">日</button>
           </div>
           <div id = "month_hpi_wrap" class="hpi_content">
-            <div class="month_slct_hpi"><?//(balance_record/js/ajax,jsに飛ばしています)?>
+            <div class="month_slct_hpi">
               <?php $hpi_month = date('Y-m', strtotime('first day of ' . date('Y-m', strtotime('-5 month')))).','.date('Y-m');?>
-              <input  id="month_hpi_ajax" class="datepicker-here" type="text" name="entry_date" data-language="jp" data-min-view="months"data-view="months"data-date-format="yyyy-mm" data-position='bottom left' data-range="true"data-multiple-dates-separator="," placeholder="<? echo $hpi_month;?>" readonly="readonly" />
+              <input  id="month_hpi_ajax" class="datepicker-here" type="text" name="entry_date" data-language="jp" data-min-view="months"data-view="months"data-date-format="yyyy-mm" data-position='bottom left' data-range="true"data-multiple-dates-separator="," placeholder="<?php echo $hpi_month; ?>" readonly="readonly" />
               <button id="month_hpi_btn"><i class="far fa-paper-plane"></i></button>
             </div>
             <div id = "month_hpi_result">
@@ -199,7 +199,7 @@
             </div>
           </div>
           <div id = "day_hpi_wrap" class="hpi_content">
-            <div class="day_slct_hpi"><?//(balance_record/js/ajax,jsに飛ばしています)?>
+            <div class="day_slct_hpi">
               <?php $hpi_day = date('Y-m-d', strtotime('-6 day')).','.date('Y-m-d');?>
               <input  id="day_hpi_ajax" class="datepicker-here" type="text" name="entry_date" data-language="jp" data-date-format="yyyy-mm-dd" data-position='bottom left' data-range="true"data-multiple-dates-separator="," placeholder="<?php echo $hpi_day;?>" readonly="readonly" />
               <button id="day_hpi_btn"><i class="far fa-paper-plane"></i></button>

@@ -1,8 +1,13 @@
-<?php session_start(); ?>
+<?php 
+	session_start();
+	if( !empty($_SESSION['id'])) {
+    header('Location: /balance_record/home');exit ;
+  }
+?>
 <?php include( dirname(__FILE__).'/../header.php' ); ?>
 
 	<div id="login_explanation">
-		<p>データが入ったアカウントでログインする場合は、<br>下記のIDとPASSWORDでログインしてください。<br>ID:-----<br>PASS:-----</p>
+		<p>データが入ったアカウントでログインする場合は、<br>下記のIDとPASSWORDでログインしてください。<br>ID:demo_user<br>PASS:demo_user</p>
 	</div>
 
 	<div id="login_wrap">

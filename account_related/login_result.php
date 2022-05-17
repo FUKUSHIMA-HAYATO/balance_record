@@ -2,7 +2,7 @@
 <?php
   $search_id = $_POST['access_id'];
   try{
-    $pdo    = new PDO('mysql:host=localhost; dbname=name; charset=utf8mb4', 'user', 'pass');
+    $pdo    = new PDO('mysql:host=localhost; dbname=dbname; charset=utf8', 'user', 'pass');
     $stmt   = $pdo->prepare("SELECT id,pass FROM user_id_password WHERE id = :search_id");
     $stmt   ->bindValue(':search_id', $search_id);
     $stmt   ->execute();
@@ -19,7 +19,7 @@
   } else {
     $msg       = 'IDもしくはパスワードが間違っています。';
     $link      = "login";
-    $link_text = '戻る';
+    $link_text ='戻る';
   }
 ?>
 <?php include( dirname(__FILE__).'/../header.php' ); ?>

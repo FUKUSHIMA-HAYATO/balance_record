@@ -1,7 +1,7 @@
 <?php include( dirname(__FILE__).'/../header.php' ); ?>
   <div id="creation_wrap">
     <h1 id="creation_title">新規会員登録</h1>
-    <form action="creation_result" method="post" autocomplete="off">
+    <form action="creation_result.php" method="post" autocomplete="off">
       <div id="creation_id">
         <input type="text" name="new_create_id" id="search_id"pattern="^[0-9a-zA-Z_]+$" placeholder="ユーザーID" required>
         <span id="search_result"></span>
@@ -24,7 +24,7 @@
       }
       if(check_str){
         $.ajax({
-          url: 'check_id_ajax',
+          url: 'check_id_ajax.php',
           type:"POST",
           data:{check : check_str},
           dataType: 'json',

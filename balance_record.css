@@ -111,156 +111,220 @@
 /body Style
 ------------------------------*/
 
-/*------------------------------
-ログイン画面
-------------------------------*/
-  /*枠*/
-    #login_wrap::-webkit-scrollbar{
-      display:none;
-    }
-    #login_explanation{
-      width: 40vw;
-      margin: 3vh auto 0 auto;
-      border-radius: 10px;
-      border: solid 1.4px #eeeeee;
-      background: #eeeeee;
-      box-shadow:
-         2px  2px 1.5px #b3b3b3,
-        -2px -2px 1.5px #ffffff;
-    }
-    #login_explanation p{
-      font-family: 'Kiwi Maru', serif;
-      font-weight: 600;
-      margin:10px;
-      text-align: center;
-    }
-    #login_wrap{
-      overflow: scroll;
-      width: 40vw;
-      margin: 5vh auto 10vh auto;
-      padding-bottom: 3vh;
-      border-radius: 10px;
-      border: solid 1.4px #eeeeee;
-      background: #eeeeee;
-      box-shadow:
-         2px  2px 1.5px #b3b3b3,
-        -2px -2px 1.5px #ffffff;
-    }
-  /*タイトル*/
-    #login_title{
-      font-size: larger;
-      padding:5px 0;
-      text-align: center;
-    }
-  /*入力欄*/
-    #login_id,#login_pass{
-      width: 50%;
-      margin: 5% auto;
-    }
-    #login_id input,#login_pass input{
-      font-family: 'Kiwi Maru', serif;
-      box-sizing: border-box;
-      width: 100%;
-      height: 6vh;
-      border-radius: 5px;
-      border: solid 1.4px #eeeeee;
-      background: #eeeeee;
-      box-shadow:
-        inset  2px  2px 1.5px #b3b3b3,
-        inset -2px -2px 1.5px #ffffff;
-    }
-  /*ボタン*/
-    #login_btn{
-      width: 60%;
-      margin: 5% auto;
-    }
-    #login_btn input{
-      cursor: pointer;
-      font-family: 'Kiwi Maru', serif;
-      font-size: larger;
-      font-weight: 650;
-      width: 100%;
-      padding:2vh 0;
-      border-radius: 5px;
-      border: solid 1.4px #eeeeee;
-      background: #eeeeee;
-      box-shadow:
-         2px  2px 1px #b3b3b3,
-        -2px -2px 1px #ffffff;
-    }
-    #login_btn input:hover{
-      color: rgb(252, 155, 77);
-      -webkit-tap-highlight-color:rgba(0,0,0,0);
-      box-shadow:
-        inset  2px  2px 1px #b3b3b3,
-        inset -2px -2px 1px #ffffff;
-    }
-  /*アカウント作成url*/
-    #login_creation{
-      width: 90%;
-      text-align: right;
-    }
-/*------------------------------
-/ログイン画面
-------------------------------*/
 
 /*------------------------------
-ログイン失敗画面
+家計簿アプリ
 ------------------------------*/
-  /*枠*/
-    #login_result_wrap{
-      width: 40vw;
-      margin: 25vh auto 0 auto;
-      padding:5vh 0 10vh  0;
-      border-radius: 10px;
-      border: solid 1.4px #eeeeee;
-      background: #eeeeee;
-      box-shadow:
-        inset  2px  2px 1.5px #b3b3b3,
-        inset -2px -2px 1.5px #ffffff;
-    }
-    #login_result_wrap h1{
-      text-align: center;
-      width: 90%;
-      margin: 0 auto;
-    }
-  /*ボタン*/
-    #login_result_wrap a{
-      display:block;
-      text-align: center;
-      text-decoration: none;
-      font-family: 'Kiwi Maru', serif;
-      font-size: larger;
-      font-weight: 650;
-      width: 80%;
-      margin:50px auto 15px auto;
-      padding:2vh 0;
-      border-radius: 5px;
-      color: rgb(63, 63, 63);
-      border: solid 1.4px #eeeeee;
-      background: #eeeeee;
-      box-shadow:
-         2px  2px 1px #b3b3b3,
-        -2px -2px 1px #ffffff;
-    }
-    #login_result_wrap a:hover{
-      color: rgb(252, 155, 77);
-      -webkit-tap-highlight-color:rgba(0,0,0,0);
-      box-shadow:
-        inset  2px  2px 1px #b3b3b3,
-        inset -2px -2px 1px #ffffff;
-    }
-/*------------------------------
-/ログイン失敗画面
-------------------------------*/
+  /*------------------------------
+  ログイン画面
+  ------------------------------*/
+    /*枠*/
+      #login_wrap::-webkit-scrollbar{
+        display:none;
+      }
+      #login_explanation{
+        width: 40vw;
+        margin: 3vh auto 0 auto;
+        border-radius: 10px;
+        border: solid 1.4px #eeeeee;
+        background: #eeeeee;
+        box-shadow:
+           2px  2px 1.5px #b3b3b3,
+          -2px -2px 1.5px #ffffff;
+      }
+      #login_explanation p{
+        font-family: 'Kiwi Maru', serif;
+        font-weight: 600;
+        margin:10px;
+        text-align: center;
+      }
+      #login_wrap{
+        overflow: scroll;
+        width: 40vw;
+        margin: 5vh auto 10vh auto;
+        padding-bottom: 3vh;
+        border-radius: 10px;
+        border: solid 1.4px #eeeeee;
+        background: #eeeeee;
+        box-shadow:
+           2px  2px 1.5px #b3b3b3,
+          -2px -2px 1.5px #ffffff;
+      }
+    /*タイトル*/
+      #login_title{
+        font-size: larger;
+        padding:5px 0;
+        text-align: center;
+      }
+    /*入力欄*/
+      #login_id,#login_pass{
+        width: 50%;
+        margin: 5% auto;
+      }
+      #login_id input,#login_pass input{
+        font-family: 'Kiwi Maru', serif;
+        box-sizing: border-box;
+        width: 100%;
+        height: 6vh;
+        border-radius: 5px;
+        border: solid 1.4px #eeeeee;
+        background: #eeeeee;
+        box-shadow:
+          inset  2px  2px 1.5px #b3b3b3,
+          inset -2px -2px 1.5px #ffffff;
+      }
+    /*ボタン*/
+      #login_btn{
+        width: 60%;
+        margin: 5% auto;
+      }
+      #login_btn input{
+        cursor: pointer;
+        font-family: 'Kiwi Maru', serif;
+        font-size: larger;
+        font-weight: 650;
+        width: 100%;
+        padding:2vh 0;
+        border-radius: 5px;
+        border: solid 1.4px #eeeeee;
+        background: #eeeeee;
+        box-shadow:
+           2px  2px 1px #b3b3b3,
+          -2px -2px 1px #ffffff;
+      }
+      #login_btn input:hover{
+        color: rgb(252, 155, 77);
+        -webkit-tap-highlight-color:rgba(0,0,0,0);
+        box-shadow:
+          inset  2px  2px 1px #b3b3b3,
+          inset -2px -2px 1px #ffffff;
+      }
+    /*アカウント作成url*/
+      #login_creation{
+        width: 90%;
+        text-align: right;
+      }
+  /*------------------------------
+  /ログイン画面
+  ------------------------------*/
 
-/*------------------------------
-ログアウト画面
-------------------------------*/
-  /*枠*/
-    #logout_explanation{
+  /*------------------------------
+  ログイン失敗画面
+  ------------------------------*/
+    /*枠*/
+      #login_result_wrap{
+        width: 40vw;
+        margin: 25vh auto 0 auto;
+        padding:5vh 0 10vh  0;
+        border-radius: 10px;
+        border: solid 1.4px #eeeeee;
+        background: #eeeeee;
+        box-shadow:
+          inset  2px  2px 1.5px #b3b3b3,
+          inset -2px -2px 1.5px #ffffff;
+      }
+      #login_result_wrap h1{
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+      }
+      #login_result_wrap a{
+        display:block;
+        text-align: center;
+        text-decoration: none;
+        font-family: 'Kiwi Maru', serif;
+        font-size: larger;
+        font-weight: 650;
+        width: 80%;
+        margin:50px auto 15px auto;
+        padding:2vh 0;
+        border-radius: 5px;
+        color: rgb(63, 63, 63);
+        border: solid 1.4px #eeeeee;
+        background: #eeeeee;
+        box-shadow:
+           2px  2px 1px #b3b3b3,
+          -2px -2px 1px #ffffff;
+      }
+      #login_result_wrap a:hover{
+        color: rgb(252, 155, 77);
+        -webkit-tap-highlight-color:rgba(0,0,0,0);
+        box-shadow:
+          inset  2px  2px 1px #b3b3b3,
+          inset -2px -2px 1px #ffffff;
+      }
+  /*------------------------------
+  /ログイン失敗画面
+  ------------------------------*/
+
+  /*------------------------------
+  ログアウト画面
+  ------------------------------*/
+    /*枠*/
+      #logout_explanation{
+        width: 40vw;
+        margin: 15vh auto 0 auto;
+        border-radius: 10px;
+        border: solid 1.4px #eeeeee;
+        background: #eeeeee;
+        box-shadow:
+          inset  2px  2px 1.5px #b3b3b3,
+          inset -2px -2px 1.5px #ffffff;
+      }
+      #logout_explanation p{
+        font-family: 'Kiwi Maru', serif;
+        font-size: 30px;
+        font-weight: 600;
+        margin:15px;
+        text-align: center;
+        color: rgb(88, 88, 88);
+        text-shadow:
+          0px 1px  0px rgb(71, 71, 71),
+          1px 3px  1px rgba(71, 71, 71, 0.582);
+      }
+    /*ボタン*/
+      #logout_wrap{
+        display: flex;
+        width: 60vw;
+        margin: 5vh auto;
+      }
+      #logout_wrap a{
+        box-sizing: border-box;
+        text-decoration: none;
+        cursor:pointer;
+        text-align: center;
+        width: 25vw;
+        margin: 10vh 2.5vw 10vh 2.5vw;
+        padding:40px;
+        font-size: larger;
+        font-weight: 650;
+        color: rgb(63, 63, 63);
+        border-radius: 4px;
+        border: solid 1.4px #eeeeee;
+        background: #eeeeee;
+        box-shadow:
+           2px  2px 1.5px #b3b3b3,
+          -2px -2px 1.5px #ffffff;
+      }
+      #logout_wrap a:hover{
+        color: rgb(252, 155, 77);
+        -webkit-tap-highlight-color:rgba(0,0,0,0);
+        box-shadow:
+          inset  2px  2px 1.5px #b3b3b3,
+          inset -2px -2px 1.5px #ffffff;
+      }
+  /*------------------------------
+  /ログアウト画面
+  ------------------------------*/
+
+  /*------------------------------
+  エラー画面
+  ------------------------------*/
+    /*枠*/
+    #error_explanation{
       width: 40vw;
       margin: 15vh auto 0 auto;
+      padding:20px 0;
       border-radius: 10px;
       border: solid 1.4px #eeeeee;
       background: #eeeeee;
@@ -268,7 +332,7 @@
         inset  2px  2px 1.5px #b3b3b3,
         inset -2px -2px 1.5px #ffffff;
     }
-    #logout_explanation p{
+    #error_explanation p{
       font-family: 'Kiwi Maru', serif;
       font-size: 30px;
       font-weight: 600;
@@ -279,1326 +343,1861 @@
         0px 1px  0px rgb(71, 71, 71),
         1px 3px  1px rgba(71, 71, 71, 0.582);
     }
-  /*ボタン*/
-    #logout_wrap{
-      display: flex;
-      width: 60vw;
-      margin: 5vh auto;
-    }
-    #logout_wrap a{
-      box-sizing: border-box;
-      text-decoration: none;
-      cursor:pointer;
-      text-align: center;
-      width: 25vw;
-      margin: 10vh 2.5vw 10vh 2.5vw;
-      padding:40px;
-      font-size: larger;
-      font-weight: 650;
-      color: rgb(63, 63, 63);
-      border-radius: 4px;
-      border: solid 1.4px #eeeeee;
-      background: #eeeeee;
-      box-shadow:
-         2px  2px 1.5px #b3b3b3,
-        -2px -2px 1.5px #ffffff;
-    }
-    #logout_wrap a:hover{
-      color: rgb(252, 155, 77);
-      -webkit-tap-highlight-color:rgba(0,0,0,0);
-      box-shadow:
-        inset  2px  2px 1.5px #b3b3b3,
-        inset -2px -2px 1.5px #ffffff;
-    }
-/*------------------------------
-/ログアウト画面
-------------------------------*/
+  /*------------------------------
+  /エラー画面
+  ------------------------------*/
 
-/*------------------------------
-エラー画面
-------------------------------*/
-  /*枠*/
-  #error_explanation{
-    width: 40vw;
-    margin: 15vh auto 0 auto;
-    border-radius: 10px;
-    border: solid 1.4px #eeeeee;
-    background: #eeeeee;
-    box-shadow:
-      inset  2px  2px 1.5px #b3b3b3,
-      inset -2px -2px 1.5px #ffffff;
-  }
-  #error_explanation p{
-    font-family: 'Kiwi Maru', serif;
-    font-size: 30px;
-    font-weight: 600;
-    margin:15px;
-    text-align: center;
-    color: rgb(88, 88, 88);
-    text-shadow:
-      0px 1px  0px rgb(71, 71, 71),
-      1px 3px  1px rgba(71, 71, 71, 0.582);
-  }
-/*------------------------------
-/エラー画面
-------------------------------*/
-
-/*------------------------------
-/新規登録画面
-------------------------------*/
-  /*枠*/
-    #creation_wrap{
-      width: 40vw;
-      margin: 10vh auto 0 auto;
-      border-radius: 10px;
-      border: solid 1.4px #eeeeee;
-      background: #eeeeee;
-      box-shadow:
-        inset  2px  2px 1.5px #b3b3b3,
-        inset -2px -2px 1.5px #ffffff;
-    }
-    #creation_wrap p{
-      font-family: 'Kiwi Maru', serif;
-    }
-    #creation_title{
-      text-align: center;
-      width: 100%;
-      padding: 15px 0;
-      font-size: 20px;
-      background-color: #f1535300;
-    }
-  /*入力欄*/
-    #creation_id,#creation_pass{
-      width: 50%;
-      margin: 5vh auto;
-    }
-    #creation_id input,#creation_pass [type="password"]{
-      box-sizing: border-box;
-      font-family: 'Kiwi Maru', serif;
-      width: 100%;
-      height: 6vh;
-      margin: 0 auto;
-      border-radius: 5px;
-      border: solid 1.4px #eeeeee;
-      background: #eeeeee;
-      box-shadow:
-        inset  2px  2px 1.5px #b3b3b3,
-        inset -2px -2px 1.5px #ffffff;
-    }
-  /*ボタン*/
-    #creation_btn{
-      width: 60%;
-      margin: 5% auto;
-    }
-    #creation_btn input{
-      cursor: pointer;
-      font-family: 'Kiwi Maru', serif;
-      font-size: larger;
-      font-weight: 650;
-      width: 100%;
-      padding:2.5vh 0;
-      border-radius: 5px;
-      border: solid 1.4px #eeeeee;
-      background: #eeeeee;
-      box-shadow:
-         2px  2px 1px #b3b3b3,
-        -2px -2px 1px #ffffff;
-    }
-    #creation_btn input:hover{
-      color: rgb(252, 155, 77);
-      -webkit-tap-highlight-color:rgba(0,0,0,0);
-      box-shadow:
-        inset  1px  1px 1px #b3b3b3,
-        inset -1px -1px 1px #ffffff;
-    }
-  /*アカウント作成url*/
-    #creation_login{
-      width: 90%;
-      text-align: right;
-      margin-bottom:10px;
-    }
-/*------------------------------
-/新規登録画面
-------------------------------*/
-
-/*------------------------------
-登録完了画面
-------------------------------*/
-  /*枠*/
-    #creation_result_wrap{
-      width: 40vw;
-      margin: 10vh auto 0 auto;
-      padding:5vh 0 10vh  0;
-      border-radius: 10px;
-      border: solid 1.4px #eeeeee;
-      background: #eeeeee;
-      box-shadow:
-        inset  2px  2px 1.5px #b3b3b3,
-        inset -2px -2px 1.5px #ffffff;
-    }
-    #creation_result_wrap h1{
-      text-align: center;
-      width: 90%;
-      margin: 0 auto;
-    }
-    #creation_result_wrap a{
-      display:block;
-      text-align: center;
-      text-decoration: none;
-      font-family: 'Kiwi Maru', serif;
-      font-size: larger;
-      font-weight: 650;
-      width: 80%;
-      margin:30px auto 15px auto;
-      padding:2vh 0;
-      border-radius: 5px;
-      color: rgb(63, 63, 63);
-      border: solid 1.4px #eeeeee;
-      background: #eeeeee;
-      box-shadow:
-         2px  2px 1px #b3b3b3,
-        -2px -2px 1px #ffffff;
-    }
-    #creation_result_wrap a:hover{
-      color: rgb(252, 155, 77);
-      -webkit-tap-highlight-color:rgba(0,0,0,0);
-      box-shadow:
-        inset  2px  2px 1px #b3b3b3,
-        inset -2px -2px 1px #ffffff;
-    }
-/*------------------------------
-/登録完了画面
-------------------------------*/
-
-/*------------------------------
-アカウント削除画面
-------------------------------*/
-  /*枠*/
-    #account_delete_explanation{
-      width: 40vw;
-      margin: 15vh auto 0 auto;
-      border-radius: 10px;
-      border: solid 1.4px #eeeeee;
-      background: #ff9f9f;
-      box-shadow:
-        inset  2px  2px 1.5px #ff8787,
-        inset -2px -2px 1.5px #f7dada;
-    }
-    #account_delete_explanation p{
-      font-family: 'Kiwi Maru', serif;
-      font-size: 30px;
-      font-weight: 600;
-      margin:15px;
-      text-align: center;
-      color: rgb(88, 88, 88);
-      text-shadow:
-        0px 1px  0px rgb(71, 71, 71);
-    }
-  /*ボタン*/
-    #account_delete_wrap{
-      display: flex;
-      width: 40vw;
-      margin: 2.5vh auto;
-    }
-    #account_delete_wrap a{
-      box-sizing: border-box;
-      text-decoration: none;
-      cursor:pointer;
-      text-align: center;
-      width: 15vw;
-      margin: 10vh 2.5vw;
-      padding:5px;
-      font-size: larger;
-      font-weight: 650;
-      color: rgb(63, 63, 63);
-      border-radius: 4px;
-      border: solid 1.4px #eeeeee;
-      background: #eeeeee;
-      box-shadow:
-         2px  2px 1.5px #b3b3b3,
-        -2px -2px 1.5px #ffffff;
-    }
-    #account_delete_wrap a:hover{
-      color: rgb(252, 155, 77);
-      -webkit-tap-highlight-color:rgba(0,0,0,0);
-      box-shadow:
-        inset  2px  2px 1.5px #b3b3b3,
-        inset -2px -2px 1.5px #ffffff;
-    }
-/*------------------------------
-/アカウント削除画面
-------------------------------*/
-
-/*------------------------------
-アカウント削除結果画面
-------------------------------*/
-  /*枠*/
-    #account_delete_result_explanation{
-      width: 40vw;
-      margin: 15vh auto 0 auto;
-      border-radius: 10px;
-      border: solid 1.4px #eeeeee;
-      background: #eeeeee;
-      box-shadow:
-        inset  2px  2px 1.5px #c4c4c4,
-        inset -2px -2px 1.5px #ffffff;
-    }
-    #account_delete_result_explanation p{
-      font-family: 'Kiwi Maru', serif;
-      font-size: 30px;
-      font-weight: 600;
-      margin:15px;
-      text-align: center;
-      color: rgb(88, 88, 88);
-      text-shadow:
-        0px 1px  0px rgb(71, 71, 71);
-    }
-  /*ボタン*/
-    #account_delete_result_wrap{
-      display: flex;
-      width: 40vw;
-      margin: 2.5vh auto;
-    }
-    #account_delete_result_wrap a{
-      box-sizing: border-box;
-      text-decoration: none;
-      cursor:pointer;
-      text-align: center;
-      width: 15vw;
-      margin: 10vh 2.5vw;
-      padding:5px;
-      font-size: larger;
-      font-weight: 650;
-      color: rgb(63, 63, 63);
-      border-radius: 4px;
-      border: solid 1.4px #eeeeee;
-      background: #eeeeee;
-      box-shadow:
-         2px  2px 1.5px #b3b3b3,
-        -2px -2px 1.5px #ffffff;
-    }
-    #account_delete_result_wrap a:hover{
-      color: rgb(252, 155, 77);
-      -webkit-tap-highlight-color:rgba(0,0,0,0);
-      box-shadow:
-        inset  2px  2px 1.5px #b3b3b3,
-        inset -2px -2px 1.5px #ffffff;
-    }
-/*------------------------------
-/アカウント削除結果画面
-------------------------------*/
-
-/*------------------------------
-コンテンツ設置位置
-------------------------------*/
-  /*分析＆ホーム横並び*/
-    #analyze_and_home_container{
-      display: flex;
-      margin-top: 80px;
-      align-items: flex-start;
-    }
-  /*分析結果表示領域*/
-    #record_analyze{
-      width: 50vw;
-    }
-  /*ホーム画面表示領域*/
-    #record_home{
-      width: 50vw;
-    }
-/*------------------------------
-/コンテンツ設置位置
-------------------------------*/
-
-/*------------------------------
-各分析結果表示領域(pc版だと左側部分です)
-------------------------------*/
-  /*合計収支*/
-    /*スクロールバー*/
-      #deposit_black::-webkit-scrollbar,
-      #deposit_red::-webkit-scrollbar{
-        display:none;
-      }
+  /*------------------------------
+  /新規登録画面
+  ------------------------------*/
     /*枠*/
-      #deposit_black,
-      #deposit_red{
-        box-sizing:border-box;
-        white-space: nowrap;
-        overflow-y: hidden;
-        overflow-x: scroll;
-        width: 95%;
-        height: 80px;
-        margin: 0px 2.5% 20px 2.5%;
-        color: rgb(68, 68, 68);
+      #creation_wrap{
+        width: 40vw;
+        margin: 10vh auto 0 auto;
         border-radius: 10px;
-        border: solid 1.4px #eeeeeeee;
-        background: #f8f8f8;
+        border: solid 1.4px #eeeeee;
+        background: #eeeeee;
         box-shadow:
           inset  2px  2px 1.5px #b3b3b3,
           inset -2px -2px 1.5px #ffffff;
-        -ms-overflow-style: none;
-        scrollbar-width: none;
       }
-    /*数字色*/
-      #deposit_black{
-        color: rgb(88, 88, 88);
-        text-shadow:
-          0px 1px  0px rgb(71, 71, 71),
-          0px 2px  0px rgb(71, 71, 71),
-          1px 3px  1px rgba(71, 71, 71, 0.582);
+      #creation_wrap p{
+        font-family: 'Kiwi Maru', serif;
       }
-      #deposit_red{
-        color: rgb(255, 88, 88);
-        text-shadow:
-          0px 1px  0px rgb(209, 71, 71),
-          0px 2px  0px rgb(209, 71, 71),
-          1px 3px  1px rgba(71, 71, 71, 0.582);
-      }
-    /*文字調整*/
-      #deposit_black p,
-      #deposit_red p{
-        font-family: 'Dancing Script';
-        font-weight: bold;
-        float:left;
+      #creation_title{
+        text-align: center;
         width: 100%;
-        height: 77.5px;
-        padding:8.5px;
-        padding-left:5px;
-        font-size: 55px;
-        background-color: #a0a0a03b;
+        padding: 15px 0;
+        font-size: 20px;
+        background-color: #f1535300;
       }
-  /*チャート分析*/
-    /*影*/
-      #chart{
-        width: 45vw;
-        margin: 0 auto;
-        border-radius:5px;
-        box-shadow:  2px  2px 1.5px #b8b8b8,
-                    -1.5px -1.5px 1.5px #fcfcfc;
-      }
-    /*枠*/
-      .select_chart_month_container,
-      .select_chart_day_container{
-        width: 45vw;
-        margin:0 auto;
-        background-color: #eeeeee;
-      }
-    /*期間指定ボックス*/
-      #chart_month_ajax[type="text"],
-      #chart_day_ajax[type="text"]{
-        box-sizing: border-box;
-        outline: none;
-        float:left;
-        font-family: 'Kiwi Maru';
-        font-weight: bold;
-        border-radius: 5px 0 0 5px;
-        width: 75%;
-        height: 40px;
-        margin:5px 0 5px 2.5% ;
-        padding:0 2vw 0 2vw;
-        border:2px solid #ffffff;
-        background: #ffffff;
-        color: rgb(88, 88, 88);
-      }
-      #chart_month_btn,
-      #chart_day_btn{
-        box-sizing: border-box;
-        width: 20%;
-        height: 40px;
-        margin:5px 0 5px 0;
-        font-size: 18px;
-        border-radius: 0px 5px 5px 0px;
-        border:2px solid #95ccff;
-        color: #fff;
-        background-color: #95ccff;
-      }
-      #chart_month_btn:hover,
-      #chart_day_btn:hover{
-        background: #ff843d;
-        border:2px solid #ff843d;
-      }
-      .chart_btn_container{
-        width: 45vw;
-        margin: 0 auto;
-      }
-    /*月単位＆日単位タブ*/
-      #chart_month,
-      #chart_day{
-        font-weight: 800;
-        float: left;
-        width: 50%;
-        height: 30px;
-        background-color:#eeeeee;
-      }
-      #chart_month:hover,
-      #chart_day:hover{
-        background-color:rgb(163, 163, 163);
-      }
-      #chart_month.active,
-      #chart_day.active{
-        background-color:#ff843d;
-      }
-    /*表示領域*/
-      .chart_title{
-        font-weight: 800;
-        width: 45vw;
-        text-align:center;
-        margin: 0 auto ;
-        padding:10px 0;
-        border-radius: 5px 5px 0 0;
-        background-color: #eeeeee;
-      }
-      #chart_result_month,
-      #chart_result_day{
-        overflow:scroll;
-        max-width: 90%;
-        padding: 5px 0;
-        margin: 0vw auto 2.5vw auto;
-      }
-      #month_chart_Container,
-      #day_chart_Container{
-        height:250px;
-        padding: 5px 0;
-      }
-      #month_chart,
-      #day_chart{
-        padding: 5px 5px;
-        border-radius:5px;
-        box-shadow:  inset 2px  2px 1.5px #b8b8b8,
-                     inset -1.5px -1.5px 1.5px #ffffff;
-      }
-  /*カテゴリー別分析*/
-    /*影*/
-      #category{
-        width: 45vw;
-        margin: 0 auto;
-        border-radius:5px;
-        box-shadow:  2px  2px 1.5px #b8b8b8,
-                    -1.5px -1.5px 1.5px #fcfcfc;
-      }
-    /*枠*/
-      .select_category_month_container,
-      .select_category_day_container{
-        width: 45vw;
-        margin:0 auto;
-        background-color: #eeeeee;
-      }
-    /*期間指定ボックス*/
-      #category_month_ajax[type="text"],
-      #category_day_ajax[type="text"]{
-        box-sizing: border-box;
-        outline: none;
-        float:left;
-        font-family: 'Kiwi Maru';
-        font-weight: bold;
-        border-radius: 5px 0 0 5px;
-        width: 75%;
-        height: 40px;
-        margin:5px 0 5px 2.5% ;
-        padding:0 2vw 0 2vw;
-        border:2px solid #ffffff;
-        background: #ffffff;
-        color: rgb(88, 88, 88);
-      }
-      #category_month_btn,
-      #category_day_btn{
-        box-sizing: border-box;
-        width: 20%;
-        height: 40px;
-        margin:5px 0 5px 0;
-        font-size: 18px;
-        border-radius: 0px 5px 5px 0px;
-        border:2px solid #95ccff;
-        color: #fff;
-        background-color: #95ccff;
-      }
-      #category_month_btn:hover,
-      #category_day_btn:hover{
-        background: #ff843d;
-        border:2px solid #ff843d;
-      }
-      .category_btn_container{
-        width: 45vw;
-        margin: 0 auto;
-      }
-    /*月単位＆日単位タブ*/
-      #category_month,
-      #category_day{
-        float: left;
-        width: 50%;
-        height: 30px;
-        font-weight: 800;
-        background-color:#eeeeee;
-      }
-      #category_month:hover,
-      #category_day:hover{
-        background-color:rgb(163, 163, 163);
-      }
-      #category_month.active,
-      #category_day.active{
-        background-color:#ff843d;
-      }
-    /*表示領域*/
-      #category_result_month,
-      #category_result_day{
-        width: 45vw;
-        padding:20px 0;
-        margin: 0 auto 2.5vw auto;
-        border-radius:0 0 5px 5px;
-        background-color: #eeeeee;
-      }
-      #ajax_category_month_payment_title,
-      #ajax_category_day_payment_title{
-        display:flex;
-        flex-wrap: wrap;
-        width: 90%;
-        margin:0 auto;
-        background-color: rgba(255, 255, 0, 0);
-      }
-      #ajax_category_month_payment_container,
-      #ajax_category_day_payment_container{
-        display:flex;
-        flex-wrap: wrap;
-        width: 100%;
-        margin:0 auto;
-      }
-      .category_name,
-      .category_payment,
-      .category_date{
-        list-style:none;
-        white-space: nowrap;
-        overflow:scroll;
-        text-align:center;
-        width: calc(100% / 3);
-        margin-bottom:10px;
-        padding-bottom:5px;
-        font-weight: 800;
-        border-bottom:1px solid rgb(168, 168, 168);
-        background-color: rgba(255, 0, 0, 0);
-      }
-  /*高額商品ランキング*/
-    /*影*/
-      #high_priced_item{
-        width: 45vw;
-        margin: 0 auto;
-        border-radius:5px;
-        box-shadow:  2px  2px 1.5px #b8b8b8,
-                    -1.5px -1.5px 1.5px #fcfcfc;
-      }
-    /*枠*/
-      .hpi_title{
-        font-weight: 800;
-        width: 45vw;
-        text-align:center;
-        margin: 0 auto ;
-        padding:10px 0;
-        border-radius: 5px 5px 0 0;
-        background-color: #eeeeee;
-      }
-    /*期間指定ボックス*/
-      .month_slct_hpi,
-      .day_slct_hpi{
-        width: 45vw;
-        margin:0 auto;
-        background-color: #eeeeee;
-      }
-      #month_hpi_ajax[type="text"],
-      #day_hpi_ajax[type="text"]{
-        box-sizing: border-box;
-        outline: none;
-        float:left;
-        font-family: 'Kiwi Maru';
-        font-weight: bold;
-        border-radius: 5px 0 0 5px;
-        width: 75%;
-        height: 40px;
-        margin:5px 0 5px 2.5% ;
-        padding:0 2vw 0 2vw;
-        border:2px solid #ffffff;
-        background: #ffffff;
-        color: rgb(88, 88, 88);
-      }
-      #month_hpi_btn,
-      #day_hpi_btn{
-        box-sizing: border-box;
-        width: 20%;
-        height: 40px;
-        margin:5px 0 5px 0;
-        font-size: 18px;
-        border-radius: 0px 5px 5px 0px;
-        border:2px solid #95ccff;
-        color: #fff;
-        background-color: #95ccff;
-      }
-      #month_hpi_btn:hover,
-      #day_hpi_btn:hover{
-        background: #ff843d;
-        border:2px solid #ff843d;
-      }
-      .hpi_btn_wrap{
-        width: 45vw;
-        margin: 0 auto;
-      }
-    /*月単位＆日単位タブ*/
-      #hpi_month,
-      #hpi_day{
-        float: left;
-        width: 50%;
-        height: 30px;
-        font-weight: 800;
-        background-color:#eeeeee;
-      }
-      #hpi_month:hover,
-      #hpi_day:hover{
-        background-color:rgb(163, 163, 163);
-      }
-      #hpi_month.active,
-      #hpi_day.active{
-        background-color:#ff843d;
-      }
-    /*表示領域*/
-      #month_hpi_result,
-      #day_hpi_result{
-        width: 45vw;
-        padding:20px 0;
-        margin: 0 auto 2.5vw auto;
-        border-radius:0 0 5px 5px;
-        background-color: #eeeeee;
-      }
-      #ajax_hpi_month_payment_title,
-      #ajax_hpi_day_payment_title{
-        display:flex;
-        flex-wrap: wrap;
-        width: 90%;
-        margin:0 auto;
-      }
-      #ajax_hpi_month_payment_container,
-      #ajax_hpi_day_payment_container{
-        display:flex;
-        flex-wrap: wrap;
-        width: 100%;
-        margin:0 auto;
-      }
-      .hpi_name,
-      .hpi_payment,
-      .hpi_date{
-        list-style: none;
-        white-space: nowrap;
-        overflow:scroll;
-        text-align:center;
-        width: calc(100% / 3);
-        margin-bottom:10px;
-        padding-bottom:5px;
-        font-weight: 800;
-        border-bottom:1px solid rgb(168, 168, 168);
-        background-color: rgba(255, 0, 0, 0);
-      }
-/*------------------------------
-/各分析結果表示領域(pc版だと左側部分です)
-------------------------------*/
-
-/*------------------------------
-ホーム画面表示領域(pc版だと右側部分です)
-------------------------------*/
-  /*詳細ログ配置*/
-    #detail_expense::-webkit-scrollbar{
-      display:none;
-    }
-    #detail_expense{
-      overflow: scroll;
-      width: 45vw;
-      margin: 1.25vw auto;
-      background-color: #c931a300;
-    }
-  /*期間設定ボックス*/
     /*入力欄*/
-      #record_home_ajax[type="text"]{
+      #creation_id,#creation_pass{
+        width: 50%;
+        margin: 5vh auto;
+      }
+      #creation_id input,#creation_pass [type="password"]{
         box-sizing: border-box;
-        outline: none;
-        float:left;
-        font-family: 'Kiwi Maru';
-        font-weight: bold;
-        border-radius: 5px 0 0 5px;
-        width: 75%;
-        height: 40px;
-        margin:20px 0 0 2.5% ;
-        padding:0 2vw 0 2vw;
-        border:2px solid #ffffff;
-        background: #ffffff;
-        color: rgb(88, 88, 88);
+        font-family: 'Kiwi Maru', serif;
+        width: 100%;
+        height: 6vh;
+        margin: 0 auto;
+        border-radius: 5px;
+        border: solid 1.4px #eeeeee;
+        background: #eeeeee;
+        box-shadow:
+          inset  2px  2px 1.5px #b3b3b3,
+          inset -2px -2px 1.5px #ffffff;
       }
     /*ボタン*/
-      #record_home_btn{
-        box-sizing: border-box;
-        width: 20%;
-        height: 40px;
-        margin:20px 0 0 0;
-        font-size: 18px;
-        border-radius: 0px 5px 5px 0px;
-        border:2px solid #95ccff;
-        color: #fff;
-        background-color: #95ccff;
+      #creation_btn{
+        width: 60%;
+        margin: 5% auto;
       }
-      #record_home_btn:hover{
-        background: #ff843d;
-        border:2px solid #ff843d;
-      }
-  /*収支ログ*/
-    /*枠*/
-      .log{
-        padding-top:10px;
-      }
-      .log_container{
-        position: relative;
-        left:0;
-        width: 95%;
-        min-height: 160px;
-        margin:0 auto 25px auto;
-        border-radius: 10px;
-        background: #eeeeee;
-        box-shadow:  2px  2px 1.5px #b3b3b3,
-                    -2px -2px 1.5px #ffffff;
-      }
-    /*商品名*/
-      .log_name{
-        position: absolute;
-        top:50px;
-        left:2.5%;
-        width: 43%;
-        height: 60px ;
-        border-radius: 10px;
-        background: #eeeeee;
-        box-shadow:inset  2px  2px 1.5px #c6c6c6,
-                   inset -2px -2px 1.5px #ffffff;
-      }
-      .log_name_2{
-        -ms-overflow-style: none;
-        scrollbar-width: none;
-        overflow: scroll;
-        font-weight: bold;
-        margin-top:2px;
-        margin-left:1.5%;
-        width: 97%;
-        height: 56px ;
-        border-radius: 10px;
-        color: rgb(68, 68, 68);
-        background: #ce1b1b00;
-      }
-    /*一言*/
-      .log_text{
-        position: absolute;
-        top:10px;
-        right:2.5%;
-        width: 50%;
-        height: 100px ;
-        border-radius: 10px;
-        background: #eeeeee;
-        box-shadow:inset  2px  2px 1.5px #c6c6c6,
-                   inset -2px -2px 1.5px #ffffff;
-      }
-      .log_text_2{
-        -ms-overflow-style: none;
-        scrollbar-width: none;
-        overflow: scroll;
-        font-weight: bold;
-        margin-top:2px;
-        margin-left:2.5%;
-        padding-top:5px;
-        width: 95%;
-        height: 90px ;
-        border-radius: 10px;
-        color: rgb(68, 68, 68);
-        background: #ce1b1b00;
-      }
-    /*合計収支*/
-      .log_payment{
-        -ms-overflow-style: none;
-        scrollbar-width: none;
-        white-space: nowrap;
-        overflow-x:scroll;
-        font-family: 'Dancing Script';
-        position: absolute;
-        top:10px;
-        left:2.5%;
-        width: 43%;
-        height: 40px;
-        font-size: 30px;
-        font-weight: bold;
-        background-color: #d4496c00;
-      }
-      .log_payment i{
-        position: absolute;
-        top:5px;
-        color: rgb(68, 68, 68);
-      }
-      .num_black{
-        color: rgb(68, 68, 68);
-      }
-      .num_red{
-        color: rgb(255, 79, 79);
-      }
-    /*プレイ時間*/
-      .log_category{
-        position: absolute;
-        font-weight: bold;
-        bottom:10px;
-        right:27.5%;
-        width: 25%;
-        font-size: 12px;
-        color: rgb(110, 110, 110);
-        background-color: #49cbd400;
-      }
-    /*日付け*/
-      .log_date{
-        position: absolute;
-        font-weight: bold;
-        text-align: right;
-        bottom:10px;
-        right:2.5%;
-        width: 25%;
-        font-size: 12px;
-        color: rgb(110, 110, 110);
-        background-color: #d4cf4900;
-      }
-    /*削除・編集ボタン*/
-      .swiper_edit_btn,.swiper_delete_btn{
-        position: absolute;
-        bottom:10px;
-        width: 25%;
-        height: 30px;
-      }
-      .swiper_edit_btn{
-        left:0;
-        background-color: #28f8ff00;
-      }
-      .swiper_delete_btn{
-        left:23%;
-        background-color: #a93ec400;
-      }
-      .edit-btn,.delete-btn{
-        position: relative;
-        text-align: center;
-        width: 50%;
-        height: 100%;
-        margin:0 auto;
-      }
-      .edit-btn{
-        border-radius: 5px;
-        background: #a5ff9c;
-        box-shadow:  1.5px  1.5px 1.5px #bdbdbd,
-                    -1.5px -1.5px 1.5px #ffffff;
-      }
-      .delete-btn{
-        border-radius: 5px;
-        background: #fa7b7b;
-        box-shadow:  1.5px  1.5px 1.5px #b3b3b3,
-                    -1.5px -1.5px 1.5px #ffffff;
-      }
-      .edit-btn:hover{
-        border-radius: 5px;
-        background: #a5ff9c;
-        box-shadow: inset  1.5px  1.5px 1.5px #bdbdbd,
-                    inset -1.5px -1.5px 1.5px #ffffff;
-      }
-      .delete-btn:hover{
-        border-radius: 5px;
-        background: #fa7b7b;
-        box-shadow: inset  1.5px  1.5px 1.5px #b3b3b3,
-                    inset -1.5px -1.5px 1.5px #ffffff;
-      }
-      .edit-btn i,.delete-btn i{
-        margin-top:5px;
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 55px;
-        height: 30px;
-        font-size: 20px;
-        color: rgb(136, 136, 136);
-      }
-  /*ログ作成モーダルウィンドウ*/
-    /*背面制御*/
-      .no_scroll_br {
-        overflow: hidden;
-      }
-      .overlay_br {
-        display: none;
-        position: fixed;
-        top: 0;
-        left: 0;
-        background-color: rgba(0, 0, 0, 0.5);
-        width: 100%;
-        height: 150%;
-        z-index: 10;
-      }
-    /*中止ボタン*/
-      .modal_button_br{
-        display: none;
-        position: fixed;
-        top: 10vh;
-        left: 25vw;
-        width: 50vw;
-        z-index: 11;
-      }
-      .Product_close_br{
-        box-sizing: border-box;
-        float:left;
-        width: 50vw;
-        padding-top:10px;
-        padding-bottom:10px;
-        font-size: calc((100vw - 320px) / 140 + 25px);
-        color: rgb(255, 88, 88);
-        text-align:center;
-        text-decoration: none;
+      #creation_btn input{
         cursor: pointer;
-        cursor: hand;
-        background-color: rgba(182, 182, 182, 0);
+        font-family: 'Kiwi Maru', serif;
+        font-size: larger;
+        font-weight: 650;
+        width: 100%;
+        padding:2.5vh 0;
+        border-radius: 5px;
+        border: solid 1.4px #eeeeee;
+        background: #eeeeee;
+        box-shadow:
+           2px  2px 1px #b3b3b3,
+          -2px -2px 1px #ffffff;
       }
-      .Product_close_br i:hover{
-        color: rgb(255, 115, 0);
+      #creation_btn input:hover{
+        color: rgb(252, 155, 77);
+        -webkit-tap-highlight-color:rgba(0,0,0,0);
+        box-shadow:
+          inset  1px  1px 1px #b3b3b3,
+          inset -1px -1px 1px #ffffff;
       }
-    /*モーダルウィンドウ枠*/
-      .modal-window_br {
-        display: none;
-        position: fixed;
-        top: 19vh;
-        left: 25vw;
+    /*アカウント作成url*/
+      #creation_login{
+        width: 90%;
+        text-align: right;
+        margin-bottom:10px;
+      }
+  /*------------------------------
+  /新規登録画面
+  ------------------------------*/
+
+  /*------------------------------
+  登録完了画面
+  ------------------------------*/
+    /*枠*/
+      #creation_result_wrap{
+        width: 40vw;
+        margin: 10vh auto 0 auto;
+        padding:5vh 0 10vh  0;
+        border-radius: 10px;
+        border: solid 1.4px #eeeeee;
+        background: #eeeeee;
+        box-shadow:
+          inset  2px  2px 1.5px #b3b3b3,
+          inset -2px -2px 1.5px #ffffff;
+      }
+      #creation_result_wrap h1{
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+      }
+      #creation_result_wrap a{
+        display:block;
+        text-align: center;
+        text-decoration: none;
+        font-family: 'Kiwi Maru', serif;
+        font-size: larger;
+        font-weight: 650;
+        width: 80%;
+        margin:30px auto 15px auto;
+        padding:2vh 0;
+        border-radius: 5px;
+        color: rgb(63, 63, 63);
+        border: solid 1.4px #eeeeee;
+        background: #eeeeee;
+        box-shadow:
+           2px  2px 1px #b3b3b3,
+          -2px -2px 1px #ffffff;
+      }
+      #creation_result_wrap a:hover{
+        color: rgb(252, 155, 77);
+        -webkit-tap-highlight-color:rgba(0,0,0,0);
+        box-shadow:
+          inset  2px  2px 1px #b3b3b3,
+          inset -2px -2px 1px #ffffff;
+      }
+  /*------------------------------
+  /登録完了画面
+  ------------------------------*/
+
+  /*------------------------------
+  アカウント削除画面
+  ------------------------------*/
+    /*枠*/
+      #account_delete_explanation{
+        width: 40vw;
+        margin: 15vh auto 0 auto;
+        border-radius: 10px;
+        border: solid 1.4px #eeeeee;
+        background: #ff9f9f;
+        box-shadow:
+          inset  2px  2px 1.5px #ff8787,
+          inset -2px -2px 1.5px #f7dada;
+      }
+      #account_delete_explanation p{
+        font-family: 'Kiwi Maru', serif;
+        font-size: 30px;
+        font-weight: 600;
+        margin:15px;
+        text-align: center;
+        color: rgb(88, 88, 88);
+        text-shadow:
+          0px 1px  0px rgb(71, 71, 71);
+      }
+    /*ボタン*/
+      #account_delete_wrap{
+        display: flex;
+        width: 40vw;
+        margin: 2.5vh auto;
+      }
+      #account_delete_wrap a{
+        box-sizing: border-box;
+        text-decoration: none;
+        cursor:pointer;
+        text-align: center;
+        width: 15vw;
+        margin: 10vh 2.5vw;
+        padding:5px;
+        font-size: larger;
+        font-weight: 650;
+        color: rgb(63, 63, 63);
+        border-radius: 4px;
+        border: solid 1.4px #eeeeee;
+        background: #eeeeee;
+        box-shadow:
+           2px  2px 1.5px #b3b3b3,
+          -2px -2px 1.5px #ffffff;
+      }
+      #account_delete_wrap a:hover{
+        color: rgb(252, 155, 77);
+        -webkit-tap-highlight-color:rgba(0,0,0,0);
+        box-shadow:
+          inset  2px  2px 1.5px #b3b3b3,
+          inset -2px -2px 1.5px #ffffff;
+      }
+  /*------------------------------
+  /アカウント削除画面
+  ------------------------------*/
+
+  /*------------------------------
+  アカウント削除結果画面
+  ------------------------------*/
+    /*枠*/
+      #account_delete_result_explanation{
+        width: 40vw;
+        margin: 15vh auto 0 auto;
+        border-radius: 10px;
+        border: solid 1.4px #eeeeee;
+        background: #eeeeee;
+        box-shadow:
+          inset  2px  2px 1.5px #c4c4c4,
+          inset -2px -2px 1.5px #ffffff;
+      }
+      #account_delete_result_explanation p{
+        font-family: 'Kiwi Maru', serif;
+        font-size: 30px;
+        font-weight: 600;
+        margin:15px;
+        text-align: center;
+        color: rgb(88, 88, 88);
+        text-shadow:
+          0px 1px  0px rgb(71, 71, 71);
+      }
+    /*ボタン*/
+      #account_delete_result_wrap{
+        display: flex;
+        width: 40vw;
+        margin: 2.5vh auto;
+      }
+      #account_delete_result_wrap a{
+        box-sizing: border-box;
+        text-decoration: none;
+        cursor:pointer;
+        text-align: center;
+        width: 15vw;
+        margin: 10vh 2.5vw;
+        padding:5px;
+        font-size: larger;
+        font-weight: 650;
+        color: rgb(63, 63, 63);
+        border-radius: 4px;
+        border: solid 1.4px #eeeeee;
+        background: #eeeeee;
+        box-shadow:
+           2px  2px 1.5px #b3b3b3,
+          -2px -2px 1.5px #ffffff;
+      }
+      #account_delete_result_wrap a:hover{
+        color: rgb(252, 155, 77);
+        -webkit-tap-highlight-color:rgba(0,0,0,0);
+        box-shadow:
+          inset  2px  2px 1.5px #b3b3b3,
+          inset -2px -2px 1.5px #ffffff;
+      }
+  /*------------------------------
+  /アカウント削除結果画面
+  ------------------------------*/
+
+  /*------------------------------
+  コンテンツ設置位置
+  ------------------------------*/
+      /*分析＆ホーム横並び*/
+      #analyze_and_home_container{
+        display: flex;
+        margin-top: 80px;
+        align-items: flex-start;
+      }
+    /*分析結果表示領域*/
+      #record_analyze{
         width: 50vw;
-        height: 76vh;
-        background: rgb(132, 165, 255);
-        z-index: 11;
-        overflow-Y:scroll;
-        border-radius: 0.8vh;
-        -ms-overflow-style: none;
-        scrollbar-width: none;
       }
-      .modal-window_br::-webkit-scrollbar {
+    /*ホーム画面表示領域*/
+      #record_home{
+        width: 50vw;
+      }
+  /*------------------------------
+  /コンテンツ設置位置
+  ------------------------------*/
+
+  /*------------------------------
+  各分析結果表示領域
+  ------------------------------*/
+    /*合計収支*/
+      /*スクロールバー*/
+        #deposit_black::-webkit-scrollbar,
+        #deposit_red::-webkit-scrollbar{
+          display:none;
+        }
+      /*枠*/
+        #deposit_black,
+        #deposit_red{
+          box-sizing:border-box;
+          white-space: nowrap;
+          overflow-y: hidden;
+          overflow-x: scroll;
+          width: 95%;
+          height: 80px;
+          margin: 0px 2.5% 20px 2.5%;
+          color: rgb(68, 68, 68);
+          border-radius: 10px;
+          border: solid 1.4px #eeeeeeee;
+          background: #f8f8f8;
+          box-shadow:
+            inset  2px  2px 1.5px #b3b3b3,
+            inset -2px -2px 1.5px #ffffff;
+          -ms-overflow-style: none;
+          scrollbar-width: none;
+        }
+      /*数字色*/
+        #deposit_black{
+          color: rgb(88, 88, 88);
+          text-shadow:
+            0px 1px  0px rgb(71, 71, 71),
+            0px 2px  0px rgb(71, 71, 71),
+            1px 3px  1px rgba(71, 71, 71, 0.582);
+        }
+        #deposit_red{
+          color: rgb(255, 88, 88);
+          text-shadow:
+            0px 1px  0px rgb(209, 71, 71),
+            0px 2px  0px rgb(209, 71, 71),
+            1px 3px  1px rgba(71, 71, 71, 0.582);
+        }
+      /*文字調整*/
+        #deposit_black p,
+        #deposit_red p{
+          font-family: 'Dancing Script';
+          font-weight: bold;
+          float:left;
+          width: 100%;
+          height: 77.5px;
+          padding:8.5px;
+          padding-left:5px;
+          font-size: 55px;
+          background-color: #a0a0a03b;
+        }
+    /*チャート分析*/
+      /*影*/
+        #chart{
+          width: 45vw;
+          margin: 0 auto;
+          border-radius:5px;
+          box-shadow:  2px  2px 1.5px #b8b8b8,
+                      -1.5px -1.5px 1.5px #fcfcfc;
+        }
+      /*枠*/
+        .select_chart_month_container,
+        .select_chart_day_container{
+          width: 45vw;
+          margin:0 auto;
+          background-color: #eeeeee;
+        }
+      /*期間指定ボックス*/
+        #chart_month_ajax[type="text"],
+        #chart_day_ajax[type="text"]{
+          box-sizing: border-box;
+          outline: none;
+          float:left;
+          font-family: 'Kiwi Maru';
+          font-weight: bold;
+          border-radius: 5px 0 0 5px;
+          width: 75%;
+          height: 40px;
+          margin:5px 0 5px 2.5% ;
+          padding:0 2vw 0 2vw;
+          border:2px solid #ffffff;
+          background: #ffffff;
+          color: rgb(88, 88, 88);
+        }
+        #chart_month_btn,
+        #chart_day_btn{
+          box-sizing: border-box;
+          width: 20%;
+          height: 40px;
+          margin:5px 0 5px 0;
+          font-size: 18px;
+          border-radius: 0px 5px 5px 0px;
+          border:2px solid #95ccff;
+          color: #fff;
+          background-color: #95ccff;
+        }
+        #chart_month_btn:hover,
+        #chart_day_btn:hover{
+          background: #ff843d;
+          border:2px solid #ff843d;
+        }
+        .chart_btn_container{
+          width: 45vw;
+          margin: 0 auto;
+        }
+      /*月単位＆日単位タブ*/
+        #chart_month,
+        #chart_day{
+          font-weight: 800;
+          float: left;
+          width: 50%;
+          height: 30px;
+          background-color:#eeeeee;
+        }
+        #chart_month:hover,
+        #chart_day:hover{
+          background-color:rgb(163, 163, 163);
+        }
+        #chart_month.active,
+        #chart_day.active{
+          background-color:#ff843d;
+        }
+      /*表示領域*/
+        .chart_title{
+          font-weight: 800;
+          width: 45vw;
+          text-align:center;
+          margin: 0 auto ;
+          padding:10px 0;
+          border-radius: 5px 5px 0 0;
+          background-color: #eeeeee;
+        }
+        #chart_result_month,
+        #chart_result_day{
+          overflow:scroll;
+          max-width: 90%;
+          padding: 5px 0;
+          margin: 0vw auto 2.5vw auto;
+        }
+        #month_chart_Container,
+        #day_chart_Container{
+          height:250px;
+          padding: 5px 0;
+        }
+        #month_chart,
+        #day_chart{
+          padding: 5px 5px;
+          border-radius:5px;
+          box-shadow:  inset 2px  2px 1.5px #b8b8b8,
+                       inset -1.5px -1.5px 1.5px #ffffff;
+        }
+    /*カテゴリー別分析*/
+      /*影*/
+        #category{
+          width: 45vw;
+          margin: 0 auto;
+          border-radius:5px;
+          box-shadow:  2px  2px 1.5px #b8b8b8,
+                      -1.5px -1.5px 1.5px #fcfcfc;
+        }
+      /*枠*/
+        .select_category_month_container,
+        .select_category_day_container{
+          width: 45vw;
+          margin:0 auto;
+          background-color: #eeeeee;
+        }
+      /*期間指定ボックス*/
+        #category_month_ajax[type="text"],
+        #category_day_ajax[type="text"]{
+          box-sizing: border-box;
+          outline: none;
+          float:left;
+          font-family: 'Kiwi Maru';
+          font-weight: bold;
+          border-radius: 5px 0 0 5px;
+          width: 75%;
+          height: 40px;
+          margin:5px 0 5px 2.5% ;
+          padding:0 2vw 0 2vw;
+          border:2px solid #ffffff;
+          background: #ffffff;
+          color: rgb(88, 88, 88);
+        }
+        #category_month_btn,
+        #category_day_btn{
+          box-sizing: border-box;
+          width: 20%;
+          height: 40px;
+          margin:5px 0 5px 0;
+          font-size: 18px;
+          border-radius: 0px 5px 5px 0px;
+          border:2px solid #95ccff;
+          color: #fff;
+          background-color: #95ccff;
+        }
+        #category_month_btn:hover,
+        #category_day_btn:hover{
+          background: #ff843d;
+          border:2px solid #ff843d;
+        }
+        .category_btn_container{
+          width: 45vw;
+          margin: 0 auto;
+        }
+      /*月単位＆日単位タブ*/
+        #category_month,
+        #category_day{
+          float: left;
+          width: 50%;
+          height: 30px;
+          font-weight: 800;
+          background-color:#eeeeee;
+        }
+        #category_month:hover,
+        #category_day:hover{
+          background-color:rgb(163, 163, 163);
+        }
+        #category_month.active,
+        #category_day.active{
+          background-color:#ff843d;
+        }
+      /*表示領域*/
+        #category_result_month,
+        #category_result_day{
+          width: 45vw;
+          padding:20px 0;
+          margin: 0 auto 2.5vw auto;
+          border-radius:0 0 5px 5px;
+          background-color: #eeeeee;
+        }
+        #ajax_category_month_payment_title,
+        #ajax_category_day_payment_title{
+          display:flex;
+          flex-wrap: wrap;
+          width: 90%;
+          margin:0 auto;
+          background-color: rgba(255, 255, 0, 0);
+        }
+        #ajax_category_month_payment_container,
+        #ajax_category_day_payment_container{
+          display:flex;
+          flex-wrap: wrap;
+          width: 100%;
+          margin:0 auto;
+        }
+        .category_name,
+        .category_payment,
+        .category_date{
+          list-style:none;
+          white-space: nowrap;
+          overflow:scroll;
+          text-align:center;
+          width: calc(100% / 3);
+          margin-bottom:10px;
+          padding-bottom:5px;
+          font-weight: 800;
+          border-bottom:1px solid rgb(168, 168, 168);
+          background-color: rgba(255, 0, 0, 0);
+        }
+    /*高額商品ランキング*/
+      /*影*/
+        #high_priced_item{
+          width: 45vw;
+          margin: 0 auto;
+          border-radius:5px;
+          box-shadow:  2px  2px 1.5px #b8b8b8,
+                      -1.5px -1.5px 1.5px #fcfcfc;
+        }
+      /*枠*/
+        .hpi_title{
+          font-weight: 800;
+          width: 45vw;
+          text-align:center;
+          margin: 0 auto ;
+          padding:10px 0;
+          border-radius: 5px 5px 0 0;
+          background-color: #eeeeee;
+        }
+      /*枠*/
+        .month_slct_hpi,
+        .day_slct_hpi{
+          width: 45vw;
+          margin:0 auto;
+          background-color: #eeeeee;
+        }
+      /*期間指定ボックス*/
+        #month_hpi_ajax[type="text"],
+        #day_hpi_ajax[type="text"]{
+          box-sizing: border-box;
+          outline: none;
+          float:left;
+          font-family: 'Kiwi Maru';
+          font-weight: bold;
+          border-radius: 5px 0 0 5px;
+          width: 75%;
+          height: 40px;
+          margin:5px 0 5px 2.5% ;
+          padding:0 2vw 0 2vw;
+          border:2px solid #ffffff;
+          background: #ffffff;
+          color: rgb(88, 88, 88);
+        }
+        #month_hpi_btn,
+        #day_hpi_btn{
+          box-sizing: border-box;
+          width: 20%;
+          height: 40px;
+          margin:5px 0 5px 0;
+          font-size: 18px;
+          border-radius: 0px 5px 5px 0px;
+          border:2px solid #95ccff;
+          color: #fff;
+          background-color: #95ccff;
+        }
+        #month_hpi_btn:hover,
+        #day_hpi_btn:hover{
+          background: #ff843d;
+          border:2px solid #ff843d;
+        }
+        .hpi_btn_wrap{
+          width: 45vw;
+          margin: 0 auto;
+        }
+      /*月単位＆日単位タブ*/
+        #hpi_month,
+        #hpi_day{
+          float: left;
+          width: 50%;
+          height: 30px;
+          font-weight: 800;
+          background-color:#eeeeee;
+        }
+        #hpi_month:hover,
+        #hpi_day:hover{
+          background-color:rgb(163, 163, 163);
+        }
+        #hpi_month.active,
+        #hpi_day.active{
+          background-color:#ff843d;
+        }
+      /*表示領域*/
+        #month_hpi_result,
+        #day_hpi_result{
+          width: 45vw;
+          padding:20px 0;
+          margin: 0 auto 2.5vw auto;
+          border-radius:0 0 5px 5px;
+          background-color: #eeeeee;
+        }
+        #ajax_hpi_month_payment_title,
+        #ajax_hpi_day_payment_title{
+          display:flex;
+          flex-wrap: wrap;
+          width: 90%;
+          margin:0 auto;
+        }
+        #ajax_hpi_month_payment_container,
+        #ajax_hpi_day_payment_container{
+          display:flex;
+          flex-wrap: wrap;
+          width: 100%;
+          margin:0 auto;
+        }
+        .hpi_name,
+        .hpi_payment,
+        .hpi_date{
+          list-style: none;
+          white-space: nowrap;
+          overflow:scroll;
+          text-align:center;
+          width: calc(100% / 3);
+          margin-bottom:10px;
+          padding-bottom:5px;
+          font-weight: 800;
+          border-bottom:1px solid rgb(168, 168, 168);
+          background-color: rgba(255, 0, 0, 0);
+        }
+  /*------------------------------
+  /各分析結果表示領域
+  ------------------------------*/
+
+  /*------------------------------
+  ホーム画面表示領域
+  ------------------------------*/
+    /*詳細ログ配置*/
+      #detail_expense::-webkit-scrollbar{
         display:none;
       }
-    /*題名枠*/
-      .Product_title_br{
-        font-size: 30px;
-        text-align:center;
-        padding:5px 0;
-        background-color: rgb(132, 165, 255);
-      }
-      .record_entry_br_container{
-        margin: 10px auto;
-        position: relative;
-        background-color: rgb(255, 255, 255);
-        width: 95%;
-        border-radius: 5px;
-      }
-    /*開くボタン*/
-      .button-open_br_container{
+      #detail_expense{
+        overflow: scroll;
         width: 45vw;
         margin: 1.25vw auto;
-        background-color: rgba(165, 22, 22, 0);
+        background-color: #c931a300;
       }
-      .button-open_br {
+    /*期間設定ボックス*/
+      /*入力欄*/
+        #record_home_ajax[type="text"]{
+          box-sizing: border-box;
+          outline: none;
+          float:left;
+          font-family: 'Kiwi Maru';
+          font-weight: bold;
+          border-radius: 5px 0 0 5px;
+          width: 75%;
+          height: 40px;
+          margin:20px 0 0 2.5% ;
+          padding:0 2vw 0 2vw;
+          border:2px solid #ffffff;
+          background: #ffffff;
+          color: rgb(88, 88, 88);
+        }
+      /*ボタン*/
+        #record_home_btn{
+          box-sizing: border-box;
+          width: 20%;
+          height: 40px;
+          margin:20px 0 0 0;
+          font-size: 18px;
+          border-radius: 0px 5px 5px 0px;
+          border:2px solid #95ccff;
+          color: #fff;
+          background-color: #95ccff;
+        }
+        #record_home_btn:hover{
+          background: #ff843d;
+          border:2px solid #ff843d;
+        }
+    /*収支ログ*/
+      /*枠*/
+        .log{
+          padding-top:10px;
+        }
+        .log_container{
+          position: relative;
+          left:0;
+          width: 95%;
+          min-height: 160px;
+          margin:0 auto 25px auto;
+          border-radius: 10px;
+          background: #eeeeee;
+          box-shadow:  2px  2px 1.5px #b3b3b3,
+                      -2px -2px 1.5px #ffffff;
+        }
+      /*商品名*/
+        .log_name{
+          position: absolute;
+          top:50px;
+          left:2.5%;
+          width: 43%;
+          height: 60px ;
+          border-radius: 10px;
+          background: #eeeeee;
+          box-shadow:inset  2px  2px 1.5px #c6c6c6,
+                     inset -2px -2px 1.5px #ffffff;
+        }
+        .log_name_2{
+          -ms-overflow-style: none;
+          scrollbar-width: none;
+          overflow: scroll;
+          font-weight: bold;
+          margin-top:2px;
+          margin-left:1.5%;
+          width: 97%;
+          height: 56px ;
+          border-radius: 10px;
+          color: rgb(68, 68, 68);
+          background: #ce1b1b00;
+        }
+      /*一言*/
+        .log_text{
+          position: absolute;
+          top:10px;
+          right:2.5%;
+          width: 50%;
+          height: 100px ;
+          border-radius: 10px;
+          background: #eeeeee;
+          box-shadow:inset  2px  2px 1.5px #c6c6c6,
+                     inset -2px -2px 1.5px #ffffff;
+        }
+        .log_text_2{
+          -ms-overflow-style: none;
+          scrollbar-width: none;
+          overflow: scroll;
+          font-weight: bold;
+          margin-top:2px;
+          margin-left:2.5%;
+          padding-top:5px;
+          width: 95%;
+          height: 90px ;
+          border-radius: 10px;
+          color: rgb(68, 68, 68);
+          background: #ce1b1b00;
+        }
+      /*合計収支*/
+        .log_payment{
+          -ms-overflow-style: none;
+          scrollbar-width: none;
+          white-space: nowrap;
+          overflow-x:scroll;
+          font-family: 'Dancing Script';
+          position: absolute;
+          top:10px;
+          left:2.5%;
+          width: 43%;
+          height: 40px;
+          font-size: 30px;
+          font-weight: bold;
+          background-color: #d4496c00;
+        }
+        .log_payment i{
+          position: absolute;
+          top:5px;
+          color: rgb(68, 68, 68);
+        }
+        .num_black{
+          color: rgb(68, 68, 68);
+        }
+        .num_red{
+          color: rgb(255, 79, 79);
+        }
+      /*プレイ時間*/
+        .log_category{
+          position: absolute;
+          font-weight: bold;
+          bottom:10px;
+          right:27.5%;
+          width: 25%;
+          font-size: 12px;
+          color: rgb(110, 110, 110);
+          background-color: #49cbd400;
+        }
+      /*日付け*/
+        .log_date{
+          position: absolute;
+          font-weight: bold;
+          text-align: right;
+          bottom:10px;
+          right:2.5%;
+          width: 25%;
+          font-size: 12px;
+          color: rgb(110, 110, 110);
+          background-color: #d4cf4900;
+        }
+      /*削除・編集ボタン*/
+        .swiper_edit_btn,.swiper_delete_btn{
+          position: absolute;
+          bottom:10px;
+          width: 25%;
+          height: 30px;
+        }
+        .swiper_edit_btn{
+          left:0;
+          background-color: #28f8ff00;
+        }
+        .swiper_delete_btn{
+          left:23%;
+          background-color: #a93ec400;
+        }
+        .edit-btn,.delete-btn{
+          position: relative;
+          text-align: center;
+          width: 50%;
+          height: 100%;
+          margin:0 auto;
+        }
+        .edit-btn{
+          border-radius: 5px;
+          background: #a5ff9c;
+          box-shadow:  1.5px  1.5px 1.5px #bdbdbd,
+                      -1.5px -1.5px 1.5px #ffffff;
+        }
+        .delete-btn{
+          border-radius: 5px;
+          background: #fa7b7b;
+          box-shadow:  1.5px  1.5px 1.5px #b3b3b3,
+                      -1.5px -1.5px 1.5px #ffffff;
+        }
+        .edit-btn:hover{
+          border-radius: 5px;
+          background: #a5ff9c;
+          box-shadow: inset  1.5px  1.5px 1.5px #bdbdbd,
+                      inset -1.5px -1.5px 1.5px #ffffff;
+        }
+        .delete-btn:hover{
+          border-radius: 5px;
+          background: #fa7b7b;
+          box-shadow: inset  1.5px  1.5px 1.5px #b3b3b3,
+                      inset -1.5px -1.5px 1.5px #ffffff;
+        }
+        .edit-btn i,.delete-btn i{
+          margin-top:5px;
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 55px;
+          height: 30px;
+          font-size: 20px;
+          color: rgb(136, 136, 136);
+        }
+    /*ログ作成モーダルウィンドウ*/
+      /*背面制御*/
+        .no_scroll_br {
+          overflow: hidden;
+        }
+        .overlay_br {
+          display: none;
+          position: fixed;
+          top: 0;
+          left: 0;
+          background-color: rgba(0, 0, 0, 0.5);
+          width: 100%;
+          height: 150%;
+          z-index: 10;
+        }
+      /*中止ボタン*/
+        .modal_button_br{
+          display: none;
+          position: fixed;
+          top: 10vh;
+          left: 25vw;
+          width: 50vw;
+          z-index: 11;
+        }
+        .Product_close_br{
+          box-sizing: border-box;
+          float:left;
+          width: 50vw;
+          padding-top:10px;
+          padding-bottom:10px;
+          font-size: calc((100vw - 320px) / 140 + 25px);
+          color: rgb(255, 88, 88);
+          text-align:center;
+          text-decoration: none;
+          cursor: pointer;
+          cursor: hand;
+          background-color: rgba(182, 182, 182, 0);
+        }
+        .Product_close_br i:hover{
+          color: rgb(255, 115, 0);
+        }
+      /*モーダルウィンドウ枠*/
+        .modal-window_br {
+          display: none;
+          position: fixed;
+          top: 19vh;
+          left: 25vw;
+          width: 50vw;
+          height: 76vh;
+          background: rgb(132, 165, 255);
+          z-index: 11;
+          overflow-Y:scroll;
+          border-radius: 0.8vh;
+          -ms-overflow-style: none;
+          scrollbar-width: none;
+        }
+        .modal-window_br::-webkit-scrollbar {
+          display:none;
+        }
+      /*題名枠*/
+        .Product_title_br{
+          font-size: 30px;
+          text-align:center;
+          padding:5px 0;
+          background-color: rgb(132, 165, 255);
+        }
+        .record_entry_br_container{
+          margin: 10px auto;
+          position: relative;
+          background-color: rgb(255, 255, 255);
+          width: 95%;
+          border-radius: 5px;
+        }
+      /*開くボタン*/
+        .button-open_br_container{
+          width: 45vw;
+          margin: 1.25vw auto;
+          background-color: rgba(165, 22, 22, 0);
+        }
+        .button-open_br {
+          font-family: 'Kiwi Maru', serif;
+          font-size: calc((100vw - 320px) / 140 + 25px);
+          color: rgb(110, 110, 110);
+          width: 95%;
+          min-height: 120px;
+          margin:10px 2.5%;
+          border-radius: 10px;
+          border-color:#ebebeb00;
+          background: #ebebeb;
+          box-shadow:  2px  2px 1.5px #b3b3b3,
+                      -2px -2px 1.5px #ffffff;
+        }
+        .button-open_br:hover {
+          cursor:pointer;
+          color: rgb(92, 209, 255);
+          box-shadow:inset  2px  2px 1.5px #b3b3b3,
+                     inset -2px -2px 1.5px #ffffff;
+        }
+  /*------------------------------
+  /ホーム画面表示領域
+  ------------------------------*/
+
+  /*------------------------------
+  収支記入画面
+  ------------------------------*/
+    /* 題名 */
+      .entry_title{
+        width: 100%;
+        font-size: large;
+        font-weight: 800;
+      }
+      .entry_title p{
+        text-align: center;
+        padding:10px;
+      }
+    /* 枠 */
+      #entry_payments_container{
+        width: 100%;
+        padding:10px 0 10px 0;
+        margin-bottom:30vh;
+        border-radius: 5px;
+        background-color: #eeeeee;
+      }
+      .form_box_container{
+        margin:20px 2.5%;
+      }
+    /* ラベル共通部分 */
+      .label-text{
+        height: 15px;
+        font-size: 15px;
+        background-color: rgb(187, 187, 187);
+        padding:2.5px 5px;
+        margin-top:3px;
+        display: block;
+        border-radius: 0px 2.5px 0px 0px;
+        float:left;
+        box-shadow:
+        1px -1px 2.5px rgb(110, 110, 110);
+      }
+      .label-danger{
+        height: 18px;
+        font-size: 18px;
+        padding:2.5px 5px;
+        background-color: rgb(255, 71, 71);
+        border-radius: 2.5px 2.5px 0px 0px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        float:left;
+      }
+      .label-freedom{
+        height: 18px;
+        font-size: 18px;
+        padding:2.5px 5px;
+        background-color: rgb(71, 255, 95);
+        border-radius: 2.5px 2.5px 0px 0px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        float:left;
+      }
+    /* 日付け*/
+      .danger_frame[type="text"] {
+        width: 100%;
+        height: 40px;
+        font-size: 18px;
+        border: 2px solid rgb(255, 71, 71);
+        border-radius: 0px 2.5px 2.5px 2.5px;
+        box-sizing: border-box;
+      }
+    /* 収入＆出費*/
+      .freedom_frame[type="number"]{
+        width: 100%;
+        height: 40px;
+        font-size: 18px;
+        border: 2px solid rgb(71, 255, 95);
+        border-radius: 0px 2.5px 2.5px 2.5px;
+        box-sizing: border-box;
+      }
+    /* 商品名＆コメント*/
+      .freedom_frame[type="message"]{
+        width: 100%;
+        height: 40px;
+        font-size: 18px;
+        border: 2px solid rgb(71, 255, 95);
+        border-radius: 0px 2.5px 2.5px 2.5px;
+        box-sizing: border-box;
+      }
+    /*カテゴリーセレクトボックス*/
+      .category{
         font-family: 'Kiwi Maru', serif;
-        font-size: calc((100vw - 320px) / 140 + 25px);
-        color: rgb(110, 110, 110);
+        width: 100%;
+        height: 40px;
+        font-size: 18px;
+        border: 2px solid rgb(255, 71, 71);
+        border-radius: 0px 2.5px 2.5px 2.5px;
+        background-color: rgb(255, 255, 255);
+        box-sizing: border-box;
+      }
+      .category:hover {
+        text-decoration: none;
+        outline: none;
+      }
+      .category:active {
+        text-decoration: none;
+        outline: none;
+      }
+    /*ローケーションセレクトボックス*/
+      .message{
+        font-family: 'Kiwi Maru', serif;
+        width: 100%;
+        height: 160px;
+        font-size: 18px;
+        border: 2px solid rgb(71, 255, 95);
+        border-radius: 0px 2.5px 2.5px 2.5px;
+        background-color: rgb(255, 255, 255);
+        box-sizing: border-box;
+      }
+    /*送信実行ボタン*/
+      .entry_btn{
+        font-family: 'Kiwi Maru';
+        font-weight: bold;
+        width: 90%;
+        height:50px;
+        margin:0 5%;
+        border-radius: 5px;
+        border: none;
+        background: #6dff6d;
+        box-shadow:
+           2px  2px 1px #b3b3b3,
+          -2px -2px 1px #ffffff;
+      }
+      .entry_btn:hover{
+        box-shadow:
+          inset  2px  2px 2px #45a745,
+          inset -2px -2px 2px #a4ffa4;
+      }
+  /*------------------------------
+  /収支記入画面
+  ------------------------------*/
+
+  /*------------------------------
+  編集画面
+  ------------------------------*/
+    /*枠*/
+      #edit_log_wrap{
+        width: 40vw;
+        padding-top:10px;
+        margin:25px auto;
+        border-radius: 5px;
+        box-shadow:  2px  2px 1.5px #b8b8b8,
+        -1.5px -1.5px 1.5px #fcfcfc;
+      }
+    /*注意文*/
+      .edit_text{
         width: 95%;
-        min-height: 120px;
-        margin:10px 2.5%;
-        border-radius: 10px;
-        border-color:#ebebeb00;
-        background: #ebebeb;
-        box-shadow:  2px  2px 1.5px #b3b3b3,
-                    -2px -2px 1.5px #ffffff;
+        margin:25px auto ;
+        border-radius: 5px;
+        background-color: #6eff618e;
+        box-shadow:
+        inset  2px  2px 1.5px #b3b3b3,
+        inset -2px -2px 1.5px #ffffff;
       }
-      .button-open_br:hover {
-        cursor:pointer;
-        color: rgb(92, 209, 255);
-        box-shadow:inset  2px  2px 1.5px #b3b3b3,
-                   inset -2px -2px 1.5px #ffffff;
+      .edit_text p{
+        padding: 10px;
+        font-weight: 800;
       }
+    /*実行ボタン*/
+      #edit_btn_cancel,#edit_btn{
+        font-family: 'Paprika','Kiwi Maru', cursive;
+        font-size: medium;
+        display:inline-block;
+        border: none;
+        font-weight: 700;
+        padding:10px;
+        width: 40%;
+        margin:10px 5%;
+        border-radius:5px;
+        box-shadow: 1.5px  1.5px 1px #b4b4b4,
+                   -1px   -1px 1px #ffffff;
+      }
+      #edit_btn_cancel{
+        background: #dfdfdf;
+      }
+      #edit_btn_cancel:hover{
+        box-shadow:inset  1.5px  1.5px 1px #b4b4b4,
+                   inset -1px   -1px 1px #ffffff;
+      }
+      #edit_btn{
+        background: #6dff6d;
+      }
+      #edit_btn:hover{
+        box-shadow:inset  1.5px  1.5px 1px #b4b4b4,
+                   inset -1px   -1px 1px #ffffff;
+      }
+  /*------------------------------
+  /編集画面
+  ------------------------------*/
+
+  /*------------------------------
+  削除画面
+  ------------------------------*/
+    /*枠*/
+      #delete_log_wrap{
+        width: 40vw;
+        padding-top:10px;
+        margin:25px auto;
+        border-radius: 5px;
+        box-shadow:  2px  2px 1.5px #b8b8b8,
+        -1.5px -1.5px 1.5px #fcfcfc;
+      }
+    /*注意文*/
+      .delete_text{
+        width: 95%;
+        margin:25px auto ;
+        border-radius: 5px;
+        background-color: #ff61618e;
+        box-shadow:
+        inset  2px  2px 1.5px #b3b3b3,
+        inset -2px -2px 1.5px #ffffff;
+      }
+      .delete_text p{
+        padding: 10px;
+        font-weight: 800;
+      }
+    /*実行ボタン*/
+      #delete_btn_cancel,#delete_btn{
+        font-family: 'Paprika','Kiwi Maru', cursive;
+        font-size: medium;
+        display:inline-block;
+        border: none;
+        font-weight: 700;
+        padding:10px;
+        width: 40%;
+        margin:10px 5%;
+        border-radius:5px;
+        box-shadow: 1.5px  1.5px 1px #b4b4b4,
+                   -1px   -1px 1px #ffffff;
+      }
+      #delete_btn_cancel{
+        background: #dfdfdf;
+      }
+      #delete_btn_cancel:hover{
+        box-shadow:inset  1.5px  1.5px 1px #b4b4b4,
+                   inset -1px   -1px 1px #ffffff;
+      }
+      #delete_btn{
+        background: #ff6d6d;
+      }
+      #delete_btn:hover{
+        box-shadow:inset  1.5px  1.5px 1px #b4b4b4,
+                   inset -1px   -1px 1px #ffffff;
+      }
+  /*------------------------------
+  /削除画面
+  ------------------------------*/
+
+  /*------------------------------
+  各処理後コメント
+  ------------------------------*/
+  .success_message,.error_message{
+    position: fixed;
+    top:20vw;
+    left: calc(25vw - 10px);
+    width: calc(50vw - 20px);
+    padding:20px;
+    border-radius: 5px;
+    font-weight: 650;
+    z-index: 100;
+  }
+  .success_message li,.error_message li{
+    text-align: center;
+    list-style: none;
+  }
+  .error_message{
+    background-color: #ff4f4f;
+  }
+  .success_message{
+    background-color: #6dff6d;
+  }
+  /*------------------------------
+  /各処理後コメント
+  ------------------------------*/
+
 /*------------------------------
-/ホーム画面表示領域(pc版だと右側部分です)
+/家計簿アプリ
 ------------------------------*/
 
 /*------------------------------
-収支記入画面
+PC・タブレット端末用CSS
 ------------------------------*/
-  /* 題名 */
-    .entry_title{
-      width: 100%;
-      font-size: large;
-      font-weight: 800;
+  @media screen and (min-width: 601px) {
+    .tab {
+      display: none;
     }
-    .entry_title p{
-      text-align: center;
-      padding:10px;
-    }
-  /* 枠 */
-    #entry_payments_container{
-      width: 100%;
-      padding:10px 0 10px 0;
-      margin-bottom:30vh;
-      border-radius: 5px;
-      background-color: #eeeeee;
-    }
-    .form_box_container{
-      margin:20px 2.5%;
-    }
-  /* ラベル共通部分 */
-    .label-text{
-      height: 15px;
-      font-size: 15px;
-      background-color: rgb(187, 187, 187);
-      padding:2.5px 5px;
-      margin-top:3px;
-      display: block;
-      border-radius: 0px 2.5px 0px 0px;
-      float:left;
-      box-shadow:
-      1px -1px 2.5px rgb(110, 110, 110);
-    }
-    .label-danger{
-      height: 18px;
-      font-size: 18px;
-      padding:2.5px 5px;
-      background-color: rgb(255, 71, 71);
-      border-radius: 2.5px 2.5px 0px 0px;
-      color: rgb(255, 255, 255);
-      text-align: center;
-      float:left;
-    }
-    .label-freedom{
-      height: 18px;
-      font-size: 18px;
-      padding:2.5px 5px;
-      background-color: rgb(71, 255, 95);
-      border-radius: 2.5px 2.5px 0px 0px;
-      color: rgb(255, 255, 255);
-      text-align: center;
-      float:left;
-    }
-  /* 日付け*/
-    .danger_frame[type="text"] {
-      width: 100%;
-      height: 40px;
-      font-size: 18px;
-      border: 2px solid rgb(255, 71, 71);
-      border-radius: 0px 2.5px 2.5px 2.5px;
-      box-sizing: border-box;
-    }
-  /* 収入＆出費*/
-    .freedom_frame[type="number"]{
-      width: 100%;
-      height: 40px;
-      font-size: 18px;
-      border: 2px solid rgb(71, 255, 95);
-      border-radius: 0px 2.5px 2.5px 2.5px;
-      box-sizing: border-box;
-    }
-  /* 商品名＆コメント*/
-    .freedom_frame[type="message"]{
-      width: 100%;
-      height: 40px;
-      font-size: 18px;
-      border: 2px solid rgb(71, 255, 95);
-      border-radius: 0px 2.5px 2.5px 2.5px;
-      box-sizing: border-box;
-    }
-  /*カテゴリーセレクトボックス*/
-    .category{
-      font-family: 'Kiwi Maru', serif;
-      width: 100%;
-      height: 40px;
-      font-size: 18px;
-      border: 2px solid rgb(255, 71, 71);
-      border-radius: 0px 2.5px 2.5px 2.5px;
-      background-color: rgb(255, 255, 255);
-      box-sizing: border-box;
-    }
-    .category:hover {
-      text-decoration: none;
-      outline: none;
-    }
-    .category:active {
-      text-decoration: none;
-      outline: none;
-    }
-  /*ローケーションセレクトボックス*/
-    .message{
-      font-family: 'Kiwi Maru', serif;
-      width: 100%;
-      height: 160px;
-      font-size: 18px;
-      border: 2px solid rgb(71, 255, 95);
-      border-radius: 0px 2.5px 2.5px 2.5px;
-      background-color: rgb(255, 255, 255);
-      box-sizing: border-box;
-    }
-  /*送信実行ボタン*/
-    .entry_btn{
-      font-family: 'Kiwi Maru';
-      font-weight: bold;
-      width: 90%;
-      height:50px;
-      margin:0 5%;
-      border-radius: 5px;
-      border: none;
-      background: #6dff6d;
-      box-shadow:
-         2px  2px 1px #b3b3b3,
-        -2px -2px 1px #ffffff;
-    }
-    .entry_btn:hover{
-      box-shadow:
-        inset  2px  2px 2px #45a745,
-        inset -2px -2px 2px #a4ffa4;
-    }
+  }
 /*------------------------------
-/収支記入画面
+/PC・タブレット端末用CSS
 ------------------------------*/
 
 /*------------------------------
-編集画面
+スマホ端末用CSS
 ------------------------------*/
-  /*枠*/
-    #edit_log_wrap{
-      width: 40vw;
-      padding-top:10px;
-      margin:25px auto;
-      border-radius: 5px;
-      box-shadow:  2px  2px 1.5px #b8b8b8,
-      -1.5px -1.5px 1.5px #fcfcfc;
-    }
-  /*注意文*/
-    .edit_text{
-      width: 95%;
-      margin:25px auto ;
-      border-radius: 5px;
-      background-color: #6eff618e;
-      box-shadow:
-      inset  2px  2px 1.5px #b3b3b3,
-      inset -2px -2px 1.5px #ffffff;
-    }
-    .edit_text p{
-      padding: 10px;
-      font-weight: 800;
-    }
-  /*実行ボタン*/
-    #edit_btn_cancel,#edit_btn{
-      font-family: 'Paprika','Kiwi Maru', cursive;
-      font-size: medium;
-      display:inline-block;
-      border: none;
-      font-weight: 700;
-      padding:10px;
-      width: 40%;
-      margin:10px 5%;
-      border-radius:5px;
-      box-shadow: 1.5px  1.5px 1px #b4b4b4,
-                 -1px   -1px 1px #ffffff;
-    }
-    #edit_btn_cancel{
-      background: #dfdfdf;
-    }
-    #edit_btn_cancel:hover{
-      box-shadow:inset  1.5px  1.5px 1px #b4b4b4,
-                 inset -1px   -1px 1px #ffffff;
-    }
-    #edit_btn{
-      background: #6dff6d;
-    }
-    #edit_btn:hover{
-      box-shadow:inset  1.5px  1.5px 1px #b4b4b4,
-                 inset -1px   -1px 1px #ffffff;
-    }
+  @media screen and (max-width: 600px) {
+    /*------------------------------
+    家計簿アプリ(スマホ用)
+    ------------------------------*/
+
+      /*------------------------------
+      ログイン画面(スマホ用)
+      ------------------------------*/
+        /*枠*/
+          #login_explanation{
+            width: 90vw;
+            margin: 5vh auto 0 auto;
+          }
+          #login_wrap{
+            width: 90vw;
+            margin: 5vh auto 10vh auto;
+            padding-bottom: 5vh;
+          }
+        /*タイトル*/
+          #login_title{
+            padding:5px 0;
+            text-align: center;
+          }
+        /*入力欄*/
+          #login_id,#login_pass{
+            width: 90%;
+            margin: 5% auto;
+          }
+          #login_id input,#login_pass input{
+            width: 100%;
+            height: 45px;
+            border-radius: 5px;
+            border: solid 1.4px #eeeeee;
+            background: #eeeeee;
+            box-shadow:
+              inset  2px  2px 1px #b3b3b3,
+              inset -2px -2px 1px #ffffff;
+          }
+      /*------------------------------
+      /ログイン画面(スマホ用)
+      ------------------------------*/
+
+      /*------------------------------
+      ログイン失敗画面(スマホ用)
+      ------------------------------*/
+        /*枠*/
+        #login_result_wrap{
+          width: 90vw;
+          margin: 25vh auto 0 auto;
+          padding:5vh 0 10vh  0;
+          border-radius: 10px;
+          border: solid 1.4px #eeeeee;
+          background: #eeeeee;
+          box-shadow:
+            inset  2px  2px 1.5px #b3b3b3,
+            inset -2px -2px 1.5px #ffffff;
+        }
+        #login_result_wrap h1{
+          text-align: center;
+          width: 90%;
+          margin: 0 auto;
+        }
+        #login_result_wrap a{
+          display:block;
+          text-align: center;
+          text-decoration: none;
+          font-family: 'Kiwi Maru', serif;
+          font-size: larger;
+          font-weight: 650;
+          width: 80%;
+          margin:50px auto 15px auto;
+          padding:2vh 0;
+          border-radius: 5px;
+          color: rgb(63, 63, 63);
+          border: solid 1.4px #eeeeee;
+          background: #eeeeee;
+          box-shadow:
+             2px  2px 1px #b3b3b3,
+            -2px -2px 1px #ffffff;
+        }
+        #login_result_wrap a:hover{
+          color: rgb(252, 155, 77);
+          -webkit-tap-highlight-color:rgba(0,0,0,0);
+          box-shadow:
+            inset  2px  2px 1px #b3b3b3,
+            inset -2px -2px 1px #ffffff;
+        }
+      /*------------------------------
+      /ログイン失敗画面(スマホ用)
+      ------------------------------*/
+
+      /*------------------------------
+      ログアウト画面(スマホ用)
+      ------------------------------*/
+        /*枠*/
+          #logout_explanation{
+            width: 95vw;
+            margin: 15vh auto 0 auto;
+            border-radius: 10px;
+            border: solid 1.4px #eeeeee;
+            background: #eeeeee;
+            box-shadow:
+              inset  2px  2px 1.5px #b3b3b3,
+              inset -2px -2px 1.5px #ffffff;
+          }
+          #logout_explanation p{
+            font-family: 'Kiwi Maru', serif;
+            font-size: 30px;
+            font-weight: 600;
+            margin:15px;
+            text-align: center;
+            color: rgb(88, 88, 88);
+            text-shadow:
+              0px 1px  0px rgb(71, 71, 71),
+              1px 3px  1px rgba(71, 71, 71, 0.582);
+          }
+        /*ボタン*/
+          #logout_wrap{
+            display: flex;
+            width: 95vw;
+            margin: 5vh auto;
+          }
+          #logout_wrap a{
+            box-sizing: border-box;
+            text-decoration: none;
+            cursor:pointer;
+            text-align: center;
+            width: 45vw;
+            margin: 10vh 2.5vw;
+            padding:40px;
+            font-size: larger;
+            font-weight: 650;
+            color: rgb(63, 63, 63);
+            border-radius: 4px;
+            border: solid 1.4px #eeeeee;
+            background: #eeeeee;
+            box-shadow:
+               2px  2px 1.5px #b3b3b3,
+              -2px -2px 1.5px #ffffff;
+          }
+          #logout_wrap a:hover{
+            color: rgb(252, 155, 77);
+            -webkit-tap-highlight-color:rgba(0,0,0,0);
+            box-shadow:
+              inset  2px  2px 1.5px #b3b3b3,
+              inset -2px -2px 1.5px #ffffff;
+          }
+      /*------------------------------
+      /ログアウト画面(スマホ用)
+      ------------------------------*/
+
+      /*------------------------------
+      /新規登録画面(スマホ用)
+      ------------------------------*/
+        /*枠*/
+          #creation_wrap{
+            width: 90vw;
+            margin: 10vh auto 0 auto;
+            padding-bottom: 3vh;
+            border-radius: 10px;
+            border: solid 1.4px #eeeeee;
+            background: #eeeeee;
+            box-shadow:
+              inset  2px  2px 1.5px #b3b3b3,
+              inset -2px -2px 1.5px #ffffff;
+          }
+          #creation_wrap p{
+            font-family: 'Kiwi Maru', serif;
+          }
+          #creation_title{
+            text-align: center;
+            width: 100%;
+            padding: 15px 0;
+            font-size: 20px;
+            background-color: #f1535300;
+          }
+        /*入力欄*/
+          #creation_id,#creation_pass{
+            width: 90%;
+            margin: 5vh auto;
+          }
+          #creation_id input,#creation_pass [type="password"]{
+            font-family: 'Kiwi Maru', serif;
+            width: 100%;
+            height: 45px;
+            margin: 0 auto;
+            border-radius: 5px;
+            border: solid 1.4px #eeeeee;
+            background: #eeeeee;
+            box-shadow:
+              inset  2px  2px 1.5px #b3b3b3,
+              inset -2px -2px 1.5px #ffffff;
+          }
+        /*ボタン*/
+          #creation_btn{
+            width: 60%;
+            margin: 5% auto 2.5% auto;
+          }
+          #creation_btn input{
+            font-family: 'Kiwi Maru', serif;
+            font-size: larger;
+            font-weight: 650;
+            width: 100%;
+            padding:2vh 0;
+            border-radius: 5px;
+            border: solid 1.4px #eeeeee;
+            background: #eeeeee;
+            box-shadow:
+               1.5px  1.5px 1px #b3b3b3,
+              -1.5px -1.5px 1px #ffffff;
+          }
+          #creation_btn input:hover{
+            color: rgb(252, 155, 77);
+            -webkit-tap-highlight-color:rgba(0,0,0,0);
+            box-shadow:
+              inset  1.5px  1.5px 1px #b3b3b3,
+              inset -1.5px -1.5px 1px #ffffff;
+          }
+        /*アカウント作成url*/
+          #creation_login{
+            width: 90%;
+            text-align: right;
+          }
+      /*------------------------------
+      /新規登録画面(スマホ用)
+      ------------------------------*/
+
+
+      /*------------------------------
+      登録完了画面(スマホ用)
+      ------------------------------*/
+        /*枠*/
+          #creation_result_wrap{
+            width: 90vw;
+            margin: 25vh auto 0 auto;
+            padding:5vh 0 10vh  0;
+            border-radius: 10px;
+            border: solid 1.4px #eeeeee;
+            background: #eeeeee;
+            box-shadow:
+              inset  2px  2px 1.5px #b3b3b3,
+              inset -2px -2px 1.5px #ffffff;
+          }
+          #creation_result_wrap h1{
+            text-align: center;
+            width: 90%;
+            margin: 0 auto;
+          }
+          #creation_result_wrap a{
+            display:block;
+            text-align: center;
+            text-decoration: none;
+            font-family: 'Kiwi Maru', serif;
+            font-size: larger;
+            font-weight: 650;
+            width: 80%;
+            margin:50px auto 15px auto;
+            padding:2vh 0;
+            border-radius: 5px;
+            color: rgb(63, 63, 63);
+            border: solid 1.4px #eeeeee;
+            background: #eeeeee;
+            box-shadow:
+               2px  2px 1px #b3b3b3,
+              -2px -2px 1px #ffffff;
+          }
+          #creation_result_wrap a:hover{
+            color: rgb(252, 155, 77);
+            -webkit-tap-highlight-color:rgba(0,0,0,0);
+            box-shadow:
+              inset  2px  2px 1px #b3b3b3,
+              inset -2px -2px 1px #ffffff;
+          }
+      /*------------------------------
+      /登録完了画面(スマホ用)
+      ------------------------------*/
+
+      /*------------------------------
+      アカウント削除画面(スマホ用)
+      ------------------------------*/
+        /*枠*/
+          #account_delete_explanation{
+            width: 95vw;
+          }
+        /*ボタン*/
+          #account_delete_wrap{
+            width: 95vw;
+          }
+          #account_delete_wrap a{
+            width: 45vw;
+            margin: 10vh 1.25vw;
+            box-shadow:
+               1px  1px 1px #b3b3b3,
+              -1px -1px 1px #ffffff;
+          }
+          #account_delete_wrap a:hover{
+            box-shadow:
+              inset  1px  1px 1px #b3b3b3,
+              inset -1px -1px 1px #ffffff;
+          }
+      /*------------------------------
+      /アカウント削除画面(スマホ用)
+      ------------------------------*/
+
+      /*------------------------------
+      アカウント削除結果画面(スマホ用)
+      ------------------------------*/
+        /*枠*/
+        #account_delete_result_explanation{
+          width: 95vw;
+        }
+      /*ボタン*/
+        #account_delete_result_wrap{
+          width: 95vw;
+        }
+        #account_delete_result_wrap a{
+          width: 45vw;
+          margin: 10vh 1.25vw;
+          box-shadow:
+             1px  1px 1px #b3b3b3,
+            -1px -1px 1px #ffffff;
+        }
+        #account_delete_result_wrap a:hover{
+          box-shadow:
+            inset  1px  1px 1px #b3b3b3,
+            inset -1px -1px 1px #ffffff;
+        }
+    /*------------------------------
+    /アカウント削除結果画面(スマホ用)
+    ------------------------------*/
+
+      /*------------------------------
+      コンテンツ設置位置(スマホ用)
+      ------------------------------*/
+        /*分析結果表示領域*/
+          #record_analyze{
+            width: 100vw;
+            margin: 0 0 80px 0;
+          }
+        /*ホーム画面表示領域*/
+          #record_home{
+            width: 100vw;
+            margin: 0 0 80px 0;
+          }
+          #analyze_and_home_container{
+            margin-top: 80px;
+    
+          }
+      /*------------------------------
+      コンテンツ設置位置(スマホ用)
+      ------------------------------*/
+
+      /*------------------------------
+      タブメニューバー(スマホ用)
+      ------------------------------*/
+        /*初期透明化JSで可視化*/
+          .tabcontent {
+            display: none;
+            border-top: none;
+          }
+        /*枠*/
+          .tab {
+            position: fixed;
+            width: 100vw;
+            height: 60px;
+            bottom: 0;
+            left:0;
+            z-index: 99;
+            background: #7a7a7a;
+          }
+        /*ボタン*/
+          .tab button {
+            font-family: 'Paprika','Kiwi Maru', cursive;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            text-align: center;
+            height: 55px;
+            transition: 0.3s;
+            font-size: 14px;
+            width: calc(100vw / 3);
+            color: rgb(170, 170, 170);
+            outline: none;
+            background: #7a7a7a;
+            -webkit-tap-highlight-color:rgba(0,0,0,0);
+          }
+          .tab button:hover {
+            color: rgb(73, 73, 73);
+            outline: none;
+          }
+          .tab button.active {
+            color: rgb(65, 65, 65);
+            border-radius: 7px;
+            background: #7a7a7a;
+            outline: none;
+          }
+          .tab button i{
+            font-size: 25px;
+          }
+      /*------------------------------
+      /タブメニューバー(スマホ用)
+      ------------------------------*/
+
+      /*------------------------------
+      各分析結果(スマホ用)
+      ------------------------------*/
+        /*チャート分析*/
+          /*影*/
+            #chart{
+              width: 95vw;
+            }
+          /*枠*/
+          .select_chart_month_container,.select_chart_day_container{
+            width: 95vw;
+          }
+          /*期間指定ボックス*/
+            .chart_btn_container{
+              width: 95vw;
+            }
+          /*表示領域*/
+            .chart_title{
+              width: 95vw;
+            }
+            #chart_result_month,#chart_result_day{
+              width: 95vw;
+              margin-bottom:6vw;
+            }
+        /*カテゴリー別分析*/
+          /*影*/
+            #category{
+              width: 95vw;
+            }
+          /*枠*/
+            .select_category_month_container,.select_category_day_container{
+              width: 95vw;
+            }
+          /*期間指定ボックス*/
+            .category_btn_container{
+              width: 95vw;
+            }
+          /*表示領域*/
+            #category_result_month,#category_result_day{
+              width: 95vw;
+              margin-bottom:6vw;
+            }
+        /*高額商品ランキング*/
+          /*影*/
+            #high_priced_item{
+              width: 95vw;
+            }
+          /*タイトル*/
+          #hpi_title{
+            width: 95vw;
+          }
+          /*枠*/
+            .month_slct_hpi,.day_slct_hpi{
+              width: 95vw;
+            }
+          /*期間指定ボックス*/
+            .hpi_btn_wrap{
+              width: 95vw;
+              margin: 0 auto;
+            }
+          /*表示領域*/
+            #month_hpi_result,#day_hpi_result{
+              width: 95vw;
+              margin-bottom:6vw;
+            }
+      /*------------------------------
+      /各分析結果(スマホ用)
+      ------------------------------*/
+
+      /*------------------------------
+      詳細ログ表示(スマホ用)
+      ------------------------------*/
+        /*詳細ログ囲み枠*/
+        #detail_expense{
+          width: 100%;
+          background-color: #31c9b000;
+        }
+      /*------------------------------
+      /詳細ログ表示(スマホ用)
+      ------------------------------*/
+
+      /*------------------------------
+      ログ新規作成モーダルウィンドウ(スマホ用)
+      ------------------------------*/
+        /*背面制御*/
+          .no_scroll_br {
+            overflow: visible;
+          }
+          .overlay_br {
+            display: none;
+          }
+        /*モーダルウィンドウ枠*/
+          .modal-window_br {
+            display: block;
+            position: static;
+            top: 0vh;
+            left: 0vw;
+            width: 95vw;
+            height: auto;
+            margin: 0 auto;
+            background: #eeeeee;
+            z-index: 11;
+            overflow-y: visible;
+            border-radius: 5px;
+            box-shadow:
+               2px  2px 1.5px #b3b3b3,
+              -2px -2px 1.5px #ffffff;
+          }
+        /*開くボタン*/
+          .button-open_br_container{
+            display:none;
+          }
+        /* 枠 */
+          #entry_payments_container{
+            width: 100%;
+            margin-bottom:80px;
+            padding-bottom:10px;
+            background: #eeeeee;
+          }
+          .form_box_container{
+            margin:20px 2.5%;
+          }
+        /* 題名 */
+          .entry_title{
+            display: block;
+          }
+      /*------------------------------
+      /ログ新規作成モーダルウィンドウ(スマホ用)
+      ------------------------------*/
+
+      /*------------------------------
+      編集画面(スマホ用)
+      ------------------------------*/
+        /* 枠 */
+          #edit_log_wrap{
+            width: 95vw;
+          }
+      /*------------------------------
+      /編集画面(スマホ用)
+      ------------------------------*/
+
+      /*------------------------------
+      削除画面(スマホ用)
+      ------------------------------*/
+        /*枠*/
+          #delete_log_wrap{
+            width: 95vw;
+          }
+      /*------------------------------
+      /削除画面(スマホ用)
+      ------------------------------*/
+
+      /*------------------------------
+      各処理後コメント(スマホ用)
+      ------------------------------*/
+        .success_message,.error_message{
+          left: calc(5vw - 10px);
+          width: calc(90vw - 20px);
+        }
+      /*------------------------------
+      /各処理後コメント(スマホ用)
+      ------------------------------*/
+
+    /*------------------------------
+    /家計簿アプリ(スマホ用)
+    ------------------------------*/
+  }
 /*------------------------------
-/編集画面
+/スマホ端末用CSS
 ------------------------------*/
 
 /*------------------------------
-削除画面
-------------------------------*/
-  /*枠*/
-    #delete_log_wrap{
-      width: 40vw;
-      padding-top:10px;
-      margin:25px auto;
-      border-radius: 5px;
-      box-shadow:  2px  2px 1.5px #b8b8b8,
-      -1.5px -1.5px 1.5px #fcfcfc;
-    }
-  /*注意文*/
-    .delete_text{
-      width: 95%;
-      margin:25px auto ;
-      border-radius: 5px;
-      background-color: #ff61618e;
-      box-shadow:
-      inset  2px  2px 1.5px #b3b3b3,
-      inset -2px -2px 1.5px #ffffff;
-    }
-    .delete_text p{
-      padding: 10px;
-      font-weight: 800;
-    }
-  /*実行ボタン*/
-    #delete_btn_cancel,#delete_btn{
-      font-family: 'Paprika','Kiwi Maru', cursive;
-      font-size: medium;
-      display:inline-block;
-      border: none;
-      font-weight: 700;
-      padding:10px;
-      width: 40%;
-      margin:10px 5%;
-      border-radius:5px;
-      box-shadow: 1.5px  1.5px 1px #b4b4b4,
-                 -1px   -1px 1px #ffffff;
-    }
-    #delete_btn_cancel{
-      background: #dfdfdf;
-    }
-    #delete_btn_cancel:hover{
-      box-shadow:inset  1.5px  1.5px 1px #b4b4b4,
-                 inset -1px   -1px 1px #ffffff;
-    }
-    #delete_btn{
-      background: #ff6d6d;
-    }
-    #delete_btn:hover{
-      box-shadow:inset  1.5px  1.5px 1px #b4b4b4,
-                 inset -1px   -1px 1px #ffffff;
-    }
-/*------------------------------
-/削除画面
-------------------------------*/
-
-/*------------------------------
-各処理後コメント
-------------------------------*/
-.success_message,.error_message{
-  position: fixed;
-  top:20vw;
-  left: calc(25vw - 10px);
-  width: calc(50vw - 20px);
-  padding:20px;
-  border-radius: 5px;
-  font-weight: 650;
-  z-index: 100;
-}
-.success_message li,.error_message li{
-  text-align: center;
-  list-style: none;
-}
-.error_message{
-  background-color: #ff4f4f;
-}
-.success_message{
-  background-color: #6dff6d;
-}
-/*------------------------------
-/各処理後コメント
-------------------------------*/
-
-/*------------------------------
-グローバルメニュー
+グローバルメニュー(家計簿アプリ)
 ------------------------------*/
 .blance_record_global_menu_container{
   position: fixed;
@@ -1610,27 +2209,27 @@
 }
 .blance_record_global_menu{
   overflow: hidden;
-  width: calc(100% - 60px);
-  height: 60px;
+  width: calc(100% - 40px);
+  height: 40px;
   display:table;
   background: #acacac;
 }
 .blance_record_global_menu p{
-  font-size: 30px;
   display:table-cell;
   vertical-align:middle;
+  font-size: 20px;
+  padding-left:10px;
   color: rgb(88, 88, 88);
   text-shadow:
     0px 1px  0px rgb(71, 71, 71),
-    0px 2px  0px rgb(71, 71, 71),
-    1px 3px  1px rgba(71, 71, 71, 0.582);
+    1px 2px  1px rgba(71, 71, 71, 0.582);
 }
 /*------------------------------
-グローバルメニュー
+グローバルメニュー(家計簿アプリ)
 ------------------------------*/
 
 /*------------------------------
-ハンバーガー
+ハンバーガー(家計簿アプリ)
 ------------------------------*/
   /* オーバーレイ */
     .hamburger_overlay{
@@ -1680,7 +2279,7 @@
       color: rgb(53, 53, 53);
     }
     .hamburgerMenu-box1 ul li {
-      margin:0 0 20px 0;
+      margin:10px 0 10px 0;
     }
     .hamburgerMenu-box1 ul {
       list-style: none;
@@ -1703,8 +2302,8 @@
       border-left: 1.5px solid #cacaca;
       top: 0;
       right: 0vw;
-      width: 60px;
-      height: 60px;
+      width: 40px;
+      height: 40px;
       background: #acacac;
     }
     .x_mark_button.open {
@@ -1714,7 +2313,7 @@
                  inset -2px -2px 3px #ffa2a2;
     }
     .x_mark1 {
-      width: 40px;
+      width: 30px;
       height: 5px;
       border-radius: 2px;
       background-color: rgb(218, 218, 218);
@@ -1724,688 +2323,75 @@
         0.3px 1px  0px rgb(71, 71, 71);
 
       position: absolute;
-      top: 10px;
-      right: 10px;
+      top: 5px;
+      right: 5px;
       transition: all 0.5s;
       transition-timing-function:ease-out;
     }
     .x_mark2 {
       content: '';
-      width: 40px;
+      width: 30px;
       height: 5px;
       border-radius: 2px;
       background-color: rgb(57, 255, 31);
       box-shadow:
         0.3px 1px  0px rgb(40, 179, 22);
       position: absolute;
-      top: 25px;
-      right: 10px;
+      top: 16px;
+      right: 5px;
       transition: all 0.5s;
       transition-timing-function:ease-out;
     }
     .x_mark3 {
       content: '';
-      width: 40px;
+      width: 30px;
       height: 5px;
       border-radius: 2px;
       background-color: rgb(88, 88, 88);
       box-shadow:
         0.3px 1px  0px rgb(71, 71, 71);
       position: absolute;
-      top: 40px;
-      right: 10px;
+      top: 27px;
+      right: 5px;
       transition: all 0.5s;
       transition-timing-function:ease-out;
     }
     .x_mark1.open {
       box-shadow:none;
-      transform: translate(0px, 14.5px) rotate(-46deg);
+      transform: translate(0px, 11.5px) rotate(-46deg);
     }
     .x_mark2.open {
       transform: translate(60px, 0px);
     }
     .x_mark3.open {
       box-shadow:none;
-      transform: translate(0px, -14.5px) rotate(46deg);
+      transform: translate(0px, -10.5px) rotate(46deg);
     }
 
 /*------------------------------
-/ハンバーガー
-------------------------------*/
-
-
-
-
-
-/*スクロールバー--*/
-.category_item_name::-webkit-scrollbar,
-.category_item_payment::-webkit-scrollbar,
-.category_item_date::-webkit-scrollbar,
-.item_name::-webkit-scrollbar,
-.item_payment::-webkit-scrollbar,
-.item_date::-webkit-scrollbar,
-.category_name::-webkit-scrollbar,
-.category_payment::-webkit-scrollbar,
-.category_date::-webkit-scrollbar,
-.hpi_name::-webkit-scrollbar,
-.hpi_payment::-webkit-scrollbar,
-.hpi_date::-webkit-scrollbar,
-.log_name_2::-webkit-scrollbar,
-#detail_expense::-webkit-scrollbar,
-#chart_result_day::-webkit-scrollbar,
-#chart_result_month::-webkit-scrollbar,
-.log_text_2::-webkit-scrollbar,
-.log_location::-webkit-scrollbar,
-.log_category::-webkit-scrollbar,
-.log_money_in_back::-webkit-scrollbar,
-.log_payment::-webkit-scrollbar{
-  display:none;
-}
-
-
-
-
-
-
-/*------------------------------
-PC・タブレット端末用CSS
-------------------------------*/
-  @media screen and (min-width: 601px) {
-    .tab {
-      display: none;
-    }
-  }
-/*------------------------------
-/PC・タブレット端末用CSS
+/ハンバーガー(家計簿アプリ)
 ------------------------------*/
 
 /*------------------------------
-スマホ端末用CSS
+ハンバーガー(家計簿アプリ)(スマホ用)
 ------------------------------*/
   @media screen and (max-width: 600px) {
-    /*------------------------------
-    ログイン画面(スマホ用)
-    ------------------------------*/
-      /*枠*/
-        #login_explanation{
-          width: 90vw;
-          margin: 5vh auto 0 auto;
-        }
-        #login_wrap{
-          width: 90vw;
-          margin: 5vh auto 10vh auto;
-          padding-bottom: 5vh;
-        }
-      /*タイトル*/
-        #login_title{
-          padding:5px 0;
-          text-align: center;
-        }
-      /*入力欄*/
-        #login_id,#login_pass{
-          width: 90%;
-          margin: 5% auto;
-        }
-        #login_id input,#login_pass input{
-          width: 100%;
-          height: 45px;
-          border-radius: 5px;
-          border: solid 1.4px #eeeeee;
-          background: #eeeeee;
-          box-shadow:
-            inset  2px  2px 1px #b3b3b3,
-            inset -2px -2px 1px #ffffff;
-        }
-    /*------------------------------
-    /ログイン画面(スマホ用)
-    ------------------------------*/
-
-    /*------------------------------
-    ログイン失敗画面(スマホ用)
-    ------------------------------*/
-      /*枠*/
-      #login_result_wrap{
-        width: 90vw;
-        margin: 25vh auto 0 auto;
-        padding:5vh 0 10vh  0;
-        border-radius: 10px;
-        border: solid 1.4px #eeeeee;
-        background: #eeeeee;
-        box-shadow:
-          inset  2px  2px 1.5px #b3b3b3,
-          inset -2px -2px 1.5px #ffffff;
+    /* 表示領域 */
+      .hamburgerMenu {
+        width: 65vw;
+        right: -65vw;
       }
-      #login_result_wrap h1{
-        text-align: center;
-        width: 90%;
-        margin: 0 auto;
+      .hamburgerMenu.open {
+        transform: translateX(-65vw);
       }
-      #login_result_wrap a{
-        display:block;
-        text-align: center;
-        text-decoration: none;
-        font-family: 'Kiwi Maru', serif;
-        font-size: larger;
-        font-weight: 650;
-        width: 80%;
-        margin:50px auto 15px auto;
-        padding:2vh 0;
-        border-radius: 5px;
-        color: rgb(63, 63, 63);
-        border: solid 1.4px #eeeeee;
-        background: #eeeeee;
-        box-shadow:
-           2px  2px 1px #b3b3b3,
-          -2px -2px 1px #ffffff;
+    /* 文字調整 */
+      .hamburgerMenu-box1{
+        height:calc(80% - 60px) ;
       }
-      #login_result_wrap a:hover{
-        color: rgb(252, 155, 77);
-        -webkit-tap-highlight-color:rgba(0,0,0,0);
-        box-shadow:
-          inset  2px  2px 1px #b3b3b3,
-          inset -2px -2px 1px #ffffff;
+      .hamburgerMenu-box2{
+        height:calc(20% - 60px) ;
       }
-    /*------------------------------
-    /ログイン失敗画面(スマホ用)
-    ------------------------------*/
-
-    /*------------------------------
-    ログアウト画面(スマホ用)
-    ------------------------------*/
-      /*枠*/
-        #logout_explanation{
-          width: 95vw;
-          margin: 15vh auto 0 auto;
-          border-radius: 10px;
-          border: solid 1.4px #eeeeee;
-          background: #eeeeee;
-          box-shadow:
-            inset  2px  2px 1.5px #b3b3b3,
-            inset -2px -2px 1.5px #ffffff;
-        }
-        #logout_explanation p{
-          font-family: 'Kiwi Maru', serif;
-          font-size: 30px;
-          font-weight: 600;
-          margin:15px;
-          text-align: center;
-          color: rgb(88, 88, 88);
-          text-shadow:
-            0px 1px  0px rgb(71, 71, 71),
-            1px 3px  1px rgba(71, 71, 71, 0.582);
-        }
-      /*ボタン*/
-        #logout_wrap{
-          display: flex;
-          width: 95vw;
-          margin: 5vh auto;
-        }
-        #logout_wrap a{
-          box-sizing: border-box;
-          text-decoration: none;
-          cursor:pointer;
-          text-align: center;
-          width: 45vw;
-          margin: 10vh 2.5vw;
-          padding:40px;
-          font-size: larger;
-          font-weight: 650;
-          color: rgb(63, 63, 63);
-          border-radius: 4px;
-          border: solid 1.4px #eeeeee;
-          background: #eeeeee;
-          box-shadow:
-             2px  2px 1.5px #b3b3b3,
-            -2px -2px 1.5px #ffffff;
-        }
-        #logout_wrap a:hover{
-          color: rgb(252, 155, 77);
-          -webkit-tap-highlight-color:rgba(0,0,0,0);
-          box-shadow:
-            inset  2px  2px 1.5px #b3b3b3,
-            inset -2px -2px 1.5px #ffffff;
-        }
-    /*------------------------------
-    /ログアウト画面(スマホ用)
-    ------------------------------*/
-
-    /*------------------------------
-    /新規登録画面(スマホ用)
-    ------------------------------*/
-      /*枠*/
-        #creation_wrap{
-          width: 90vw;
-          margin: 10vh auto 0 auto;
-          padding-bottom: 3vh;
-          border-radius: 10px;
-          border: solid 1.4px #eeeeee;
-          background: #eeeeee;
-          box-shadow:
-            inset  2px  2px 1.5px #b3b3b3,
-            inset -2px -2px 1.5px #ffffff;
-        }
-        #creation_wrap p{
-          font-family: 'Kiwi Maru', serif;
-        }
-        #creation_title{
-          text-align: center;
-          width: 100%;
-          padding: 15px 0;
-          font-size: 20px;
-          background-color: #f1535300;
-        }
-      /*入力欄*/
-        #creation_id,#creation_pass{
-          width: 90%;
-          margin: 5vh auto;
-        }
-        #creation_id input,#creation_pass [type="password"]{
-          font-family: 'Kiwi Maru', serif;
-          width: 100%;
-          height: 45px;
-          margin: 0 auto;
-          border-radius: 5px;
-          border: solid 1.4px #eeeeee;
-          background: #eeeeee;
-          box-shadow:
-            inset  2px  2px 1.5px #b3b3b3,
-            inset -2px -2px 1.5px #ffffff;
-        }
-      /*ボタン*/
-        #creation_btn{
-          width: 60%;
-          margin: 5% auto 2.5% auto;
-        }
-        #creation_btn input{
-          font-family: 'Kiwi Maru', serif;
-          font-size: larger;
-          font-weight: 650;
-          width: 100%;
-          padding:2vh 0;
-          border-radius: 5px;
-          border: solid 1.4px #eeeeee;
-          background: #eeeeee;
-          box-shadow:
-             1.5px  1.5px 1px #b3b3b3,
-            -1.5px -1.5px 1px #ffffff;
-        }
-        #creation_btn input:hover{
-          color: rgb(252, 155, 77);
-          -webkit-tap-highlight-color:rgba(0,0,0,0);
-          box-shadow:
-            inset  1.5px  1.5px 1px #b3b3b3,
-            inset -1.5px -1.5px 1px #ffffff;
-        }
-      /*アカウント作成url*/
-        #creation_login{
-          width: 90%;
-          text-align: right;
-        }
-    /*------------------------------
-    /新規登録画面(スマホ用)
-    ------------------------------*/
-
-
-    /*------------------------------
-    登録完了画面(スマホ用)
-    ------------------------------*/
-      /*枠*/
-        #creation_result_wrap{
-          width: 90vw;
-          margin: 25vh auto 0 auto;
-          padding:5vh 0 10vh  0;
-          border-radius: 10px;
-          border: solid 1.4px #eeeeee;
-          background: #eeeeee;
-          box-shadow:
-            inset  2px  2px 1.5px #b3b3b3,
-            inset -2px -2px 1.5px #ffffff;
-        }
-        #creation_result_wrap h1{
-          text-align: center;
-          width: 90%;
-          margin: 0 auto;
-        }
-        #creation_result_wrap a{
-          display:block;
-          text-align: center;
-          text-decoration: none;
-          font-family: 'Kiwi Maru', serif;
-          font-size: larger;
-          font-weight: 650;
-          width: 80%;
-          margin:50px auto 15px auto;
-          padding:2vh 0;
-          border-radius: 5px;
-          color: rgb(63, 63, 63);
-          border: solid 1.4px #eeeeee;
-          background: #eeeeee;
-          box-shadow:
-             2px  2px 1px #b3b3b3,
-            -2px -2px 1px #ffffff;
-        }
-        #creation_result_wrap a:hover{
-          color: rgb(252, 155, 77);
-          -webkit-tap-highlight-color:rgba(0,0,0,0);
-          box-shadow:
-            inset  2px  2px 1px #b3b3b3,
-            inset -2px -2px 1px #ffffff;
-        }
-    /*------------------------------
-    /登録完了画面(スマホ用)
-    ------------------------------*/
-
-    /*------------------------------
-    アカウント削除画面(スマホ用)
-    ------------------------------*/
-      /*枠*/
-        #account_delete_explanation{
-          width: 95vw;
-        }
-      /*ボタン*/
-        #account_delete_wrap{
-          width: 95vw;
-        }
-        #account_delete_wrap a{
-          width: 45vw;
-          margin: 10vh 1.25vw;
-          box-shadow:
-             1px  1px 1px #b3b3b3,
-            -1px -1px 1px #ffffff;
-        }
-        #account_delete_wrap a:hover{
-          box-shadow:
-            inset  1px  1px 1px #b3b3b3,
-            inset -1px -1px 1px #ffffff;
-        }
-    /*------------------------------
-    /アカウント削除画面(スマホ用)
-    ------------------------------*/
-
-    /*------------------------------
-    アカウント削除結果画面(スマホ用)
-    ------------------------------*/
-      /*枠*/
-        #account_delete_result_explanation{
-          width: 95vw;
-        }
-      /*ボタン*/
-        #account_delete_result_wrap{
-          width: 95vw;
-        }
-        #account_delete_result_wrap a{
-          width: 45vw;
-          margin: 10vh 1.25vw;
-          box-shadow:
-             1px  1px 1px #b3b3b3,
-            -1px -1px 1px #ffffff;
-        }
-        #account_delete_result_wrap a:hover{
-          box-shadow:
-            inset  1px  1px 1px #b3b3b3,
-            inset -1px -1px 1px #ffffff;
-        }
-    /*------------------------------
-    /アカウント削除結果画面(スマホ用)
-    ------------------------------*/
-
-    /*------------------------------
-    コンテンツ設置位置(スマホ用)
-    ------------------------------*/
-      /*分析結果表示領域*/
-        #record_analyze{
-          width: 100vw;
-          margin: 0 0 80px 0;
-        }
-      /*ホーム画面表示領域*/
-        #record_home{
-          width: 100vw;
-          margin: 0 0 80px 0;
-        }
-        #analyze_and_home_container{
-          margin-top: 80px;
-        }
-    /*------------------------------
-    コンテンツ設置位置(スマホ用)
-    ------------------------------*/
-
-    /*------------------------------
-    タブメニューバー(スマホ用)
-    ------------------------------*/
-      /*初期透明化JSで可視化*/
-        .tabcontent {
-          display: none;
-          border-top: none;
-        }
-      /*枠*/
-        .tab {
-          position: fixed;
-          width: 100vw;
-          height: 60px;
-          bottom: 0;
-          left:0;
-          z-index: 99;
-          background: #7a7a7a;
-        }
-      /*ボタン*/
-        .tab button {
-          font-family: 'Paprika','Kiwi Maru', cursive;
-          float: left;
-          border: none;
-          outline: none;
-          cursor: pointer;
-          text-align: center;
-          height: 55px;
-          transition: 0.3s;
-          font-size: 14px;
-          width: calc(100vw / 3);
-          color: rgb(170, 170, 170);
-          outline: none;
-          background: #7a7a7a;
-          -webkit-tap-highlight-color:rgba(0,0,0,0);
-        }
-        .tab button:hover {
-          color: rgb(73, 73, 73);
-          outline: none;
-        }
-        .tab button.active {
-          color: rgb(65, 65, 65);
-          border-radius: 7px;
-          background: #7a7a7a;
-          outline: none;
-        }
-        .tab button i{
-          font-size: 25px;
-        }
-    /*------------------------------
-    /タブメニューバー(スマホ用)
-    ------------------------------*/
-
-    /*------------------------------
-    各分析結果(スマホ用)
-    ------------------------------*/
-      /*チャート分析*/
-        /*影*/
-          #chart{
-            width: 95vw;
-          }
-        /*枠*/
-        .select_chart_month_container,.select_chart_day_container{
-          width: 95vw;
-        }
-        /*期間指定ボックス*/
-          .chart_btn_container{
-            width: 95vw;
-          }
-        /*表示領域*/
-          .chart_title{
-            width: 95vw;
-          }
-          #chart_result_month,#chart_result_day{
-            width: 95vw;
-            margin-bottom:6vw;
-          }
-      /*カテゴリー別分析*/
-        /*影*/
-          #category{
-            width: 95vw;
-          }
-        /*枠*/
-          .select_category_month_container,.select_category_day_container{
-            width: 95vw;
-          }
-        /*期間指定ボックス*/
-          .category_btn_container{
-            width: 95vw;
-          }
-        /*表示領域*/
-          #category_result_month,#category_result_day{
-            width: 95vw;
-            margin-bottom:6vw;
-          }
-      /*高額商品ランキング*/
-        /*影*/
-          #high_priced_item{
-            width: 95vw;
-          }
-        /*タイトル*/
-        #hpi_title{
-          width: 95vw;
-        }
-        /*枠*/
-          .month_slct_hpi,.day_slct_hpi{
-            width: 95vw;
-          }
-        /*期間指定ボックス*/
-          .hpi_btn_wrap{
-            width: 95vw;
-            margin: 0 auto;
-          }
-        /*表示領域*/
-          #month_hpi_result,#day_hpi_result{
-            width: 95vw;
-            margin-bottom:6vw;
-          }
-    /*------------------------------
-    /各分析結果(スマホ用)
-    ------------------------------*/
-
-    /*------------------------------
-    詳細ログ表示(スマホ用)
-    ------------------------------*/
-      /*詳細ログ囲み枠*/
-        #detail_expense{
-          width: 100%;
-          background-color: #31c9b000;
-        }
-    /*------------------------------
-    /詳細ログ表示(スマホ用)
-    ------------------------------*/
-
-    /*------------------------------
-    ログ新規作成モーダルウィンドウ(スマホ用)
-    ------------------------------*/
-      /*背面制御*/
-        .no_scroll_br {
-          overflow: visible;
-        }
-        .overlay_br {
-          display: none;
-        }
-      /*モーダルウィンドウ枠*/
-        .modal-window_br {
-          display: block;
-          position: static;
-          top: 0vh;
-          left: 0vw;
-          width: 95vw;
-          height: auto;
-          margin: 0 auto;
-          background: #eeeeee;
-          z-index: 11;
-          overflow-y: visible;
-          border-radius: 5px;
-          box-shadow:
-             2px  2px 1.5px #b3b3b3,
-            -2px -2px 1.5px #ffffff;
-        }
-      /*開くボタン*/
-        .button-open_br_container{
-          display:none;
-        }
-      /* 枠 */
-        #entry_payments_container{
-          width: 100%;
-          margin-bottom:80px;
-          padding-bottom:10px;
-          background: #eeeeee;
-        }
-        .form_box_container{
-          margin:20px 2.5%;
-        }
-      /* 題名 */
-        .entry_title{
-          display: block;
-        }
-    /*------------------------------
-    /ログ新規作成モーダルウィンドウ(スマホ用)
-    ------------------------------*/
-
-    /*------------------------------
-    編集画面(スマホ用)
-    ------------------------------*/
-      /* 枠 */
-        #edit_log_wrap{
-          width: 95vw;
-        }
-    /*------------------------------
-    /編集画面(スマホ用)
-    ------------------------------*/
-
-    /*------------------------------
-    削除画面(スマホ用)
-    ------------------------------*/
-      /*枠*/
-        #delete_log_wrap{
-          width: 95vw;
-        }
-    /*------------------------------
-    /削除画面(スマホ用)
-    ------------------------------*/
-
-    /*------------------------------
-    各処理後コメント(スマホ用)
-    ------------------------------*/
-      .success_message,.error_message{
-        left: calc(5vw - 10px);
-        width: calc(90vw - 20px);
-      }
-    /*------------------------------
-    /各処理後コメント(スマホ用)
-    ------------------------------*/
-
-    /*------------------------------
-    ハンバーガー(スマホ用)
-    ------------------------------*/
-      /* 表示領域 */
-        .hamburgerMenu {
-          width: 65vw;
-          right: -65vw;
-        }
-        .hamburgerMenu.open {
-          transform: translateX(-65vw);
-        }
-      /* 文字調整 */
-        .hamburgerMenu-box1{
-          height:calc(80% - 60px) ;
-        }
-        .hamburgerMenu-box2{
-          height:calc(20% - 60px) ;
-        }
-    /*------------------------------
-    /ハンバーガー(スマホ用)
-    ------------------------------*/
   }
 /*------------------------------
-/スマホ端末用CSS
+/ハンバーガー(家計簿アプリ)(スマホ用)
 ------------------------------*/
